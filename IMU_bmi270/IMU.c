@@ -378,7 +378,7 @@ void IMU_getYawPitchRoll(float * angles) {
   angles[0] = -atan2(2 * q[1] * q[2] + 2 * q[0] * q[3], -2 * q[2]*q[2] - 2 * q[3] * q[3] + 1)* 180/M_PI; // yaw
   angles[1] = -asin(-2 * q[1] * q[3] + 2 * q[0] * q[2])* 180/M_PI; // pitch
   angles[2] = atan2(2 * q[2] * q[3] + 2 * q[0] * q[1], -2 * q[1] * q[1] - 2 * q[2] * q[2] + 1)* 180/M_PI; // roll
- // if(angles[0]<0)angles[0]+=360.0f;  //将 -+180度  转成0-360度
+  if(angles[0]<0)angles[0]+=360.0f;  //将 -+180度  转成0-360度
 }
 
  void IMU_TT_getgyro(float * zsjganda)

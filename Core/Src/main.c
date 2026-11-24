@@ -136,8 +136,14 @@ int main(void)
 //		HAL_Delay(1000);
 //		VOFA_Process();
 //		Angle_Control(90,1000,1000);
-		Test1();
+		
+		
+		//Test1();
+			Test2();
 
+
+		
+		
   }
   /* USER CODE END 3 */
 }

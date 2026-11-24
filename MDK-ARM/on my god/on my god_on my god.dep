@@ -1,7 +1,7 @@
 Dependencies for Project 'on my god', Target 'on my god': (DO NOT MODIFY !)
 CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
 F (startup_stm32f407xx.s)(0x6B019F89)(--cpu Cortex-M4.fp.sp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_on_my_god-ID:\keil\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\keil\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include--pd "__UVISION_VERSION SETA 540" --pd "STM32F407xx SETA 1" --pd "_RTE_ SETA 1"--list startup_stm32f407xx.lst --xref -o "on my god\startup_stm32f407xx.o" --depend "on my god\startup_stm32f407xx.d")
-F (../Core/Src/main.c)(0x6B02B2D0)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../HARDWARE -I ../LOGIC -I ../IMU_bmi270-I.\RTE\_on_my_god-ID:\keil\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\keil\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o "on my god\main.o" --omf_browse "on my god\main.crf" --depend "on my god\main.d")
+F (../Core/Src/main.c)(0x6B058EDA)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../HARDWARE -I ../LOGIC -I ../IMU_bmi270-I.\RTE\_on_my_god-ID:\keil\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\keil\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o "on my god\main.o" --omf_browse "on my god\main.crf" --depend "on my god\main.d")
 I (../Core/Inc/main.h)(0x6B00764C)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x69DF77EE)
 I (../Core/Inc/stm32f4xx_hal_conf.h)(0x6B00764B)
@@ -59,7 +59,7 @@ I (../IMU_bmi270/bmm150_defs.h)(0x5F1E99B8)
 I (../IMU_bmi270/imu.h)(0x69D1FEA0)
 I (../HARDWARE/encoder.h)(0x6B010F12)
 I (../LOGIC/vofa.h)(0x6B010D43)
-I (../LOGIC/logic.h)(0x6B025F6B)
+I (../LOGIC/logic.h)(0x6B058756)
 F (../Core/Src/gpio.c)(0x6B00F121)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../HARDWARE -I ../LOGIC -I ../IMU_bmi270-I.\RTE\_on_my_god-ID:\keil\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\keil\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o "on my god\gpio.o" --omf_browse "on my god\gpio.crf" --depend "on my god\gpio.d")
 I (../Core/Inc/gpio.h)(0x6B004CE5)
 I (../Core/Inc/main.h)(0x6B00764C)
@@ -1028,7 +1028,7 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x69DF77EE)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x69DF77EE)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x69DF77EE)
 F (..\HARDWARE\encoder.h)(0x6B010F12)()
-F (..\HARDWARE\motor.c)(0x6B04478B)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../HARDWARE -I ../LOGIC -I ../IMU_bmi270-I.\RTE\_on_my_god-ID:\keil\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\keil\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o "on my god\motor.o" --omf_browse "on my god\motor.crf" --depend "on my god\motor.d")
+F (..\HARDWARE\motor.c)(0x6B045652)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../HARDWARE -I ../LOGIC -I ../IMU_bmi270-I.\RTE\_on_my_god-ID:\keil\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\keil\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o "on my god\motor.o" --omf_browse "on my god\motor.crf" --depend "on my god\motor.d")
 I (../Core/Inc/main.h)(0x6B00764C)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x69DF77EE)
 I (../Core/Inc/stm32f4xx_hal_conf.h)(0x6B00764B)
@@ -1178,7 +1178,7 @@ I (../Core/Inc/usart.h)(0x6B007014)
 I (../Core/Inc/main.h)(0x6B00764C)
 I (../HARDWARE/motor.h)(0x6B0449D8)
 I (D:\keil\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
-F (..\LOGIC\ALLNeed.c)(0x6B02AF44)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../HARDWARE -I ../LOGIC -I ../IMU_bmi270-I.\RTE\_on_my_god-ID:\keil\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\keil\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o "on my god\allneed.o" --omf_browse "on my god\allneed.crf" --depend "on my god\allneed.d")
+F (..\LOGIC\ALLNeed.c)(0x6B05886E)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../HARDWARE -I ../LOGIC -I ../IMU_bmi270-I.\RTE\_on_my_god-ID:\keil\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\keil\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o "on my god\allneed.o" --omf_browse "on my god\allneed.crf" --depend "on my god\allneed.d")
 I (..\LOGIC\ALLNeed.h)(0x6B02A9C0)
 I (../Core/Inc/tim.h)(0x6B00F72A)
 I (../Core/Inc/main.h)(0x6B00764C)
@@ -1274,7 +1274,7 @@ F (..\LOGIC\delay.h)(0x690C8F6C)()
 F (..\LOGIC\PID.c)(0x6B025940)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../HARDWARE -I ../LOGIC -I ../IMU_bmi270-I.\RTE\_on_my_god-ID:\keil\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\keil\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o "on my god\pid.o" --omf_browse "on my god\pid.crf" --depend "on my god\pid.d")
 I (..\LOGIC\pid.h)(0x6A127132)
 F (..\LOGIC\PID.h)(0x6A127132)()
-F (.\logic.c)(0x6B044812)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../HARDWARE -I ../LOGIC -I ../IMU_bmi270-I.\RTE\_on_my_god-ID:\keil\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\keil\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o "on my god\logic.o" --omf_browse "on my god\logic.crf" --depend "on my god\logic.d")
+F (.\logic.c)(0x6B0590C0)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../HARDWARE -I ../LOGIC -I ../IMU_bmi270-I.\RTE\_on_my_god-ID:\keil\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\keil\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o "on my god\logic.o" --omf_browse "on my god\logic.crf" --depend "on my god\logic.d")
 I (../Core/Inc/main.h)(0x6B00764C)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x69DF77EE)
 I (../Core/Inc/stm32f4xx_hal_conf.h)(0x6B00764B)
@@ -1333,7 +1333,7 @@ I (../IMU_bmi270/imu.h)(0x69D1FEA0)
 I (../HARDWARE/encoder.h)(0x6B010F12)
 I (../LOGIC/vofa.h)(0x6B010D43)
 I (logic.h)(0x6B025EA5)
-F (..\LOGIC\logic.h)(0x6B025F6B)()
+F (..\LOGIC\logic.h)(0x6B058756)()
 F (..\IMU_bmi270\bmi2.c)(0x64671C6C)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../HARDWARE -I ../LOGIC -I ../IMU_bmi270-I.\RTE\_on_my_god-ID:\keil\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\keil\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o "on my god\bmi2.o" --omf_browse "on my god\bmi2.crf" --depend "on my god\bmi2.d")
 I (..\IMU_bmi270\bmi2.h)(0x64671C6C)
 I (..\IMU_bmi270\bmi2_defs.h)(0x64671C6C)
@@ -1479,7 +1479,7 @@ I (../Core/Inc/spi.h)(0x6B007014)
 I (..\IMU_bmi270\bmi270_spi.h)(0x69D1FF94)
 I (..\IMU_bmi270\bmi270_iic.h)(0x69D21566)
 F (..\IMU_bmi270\common.h)(0x67069F2A)()
-F (..\IMU_bmi270\IMU.c)(0x69D1FEA0)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../HARDWARE -I ../LOGIC -I ../IMU_bmi270-I.\RTE\_on_my_god-ID:\keil\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\keil\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o "on my god\imu.o" --omf_browse "on my god\imu.crf" --depend "on my god\imu.d")
+F (..\IMU_bmi270\IMU.c)(0x6B058E46)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../HARDWARE -I ../LOGIC -I ../IMU_bmi270-I.\RTE\_on_my_god-ID:\keil\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\keil\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o "on my god\imu.o" --omf_browse "on my god\imu.crf" --depend "on my god\imu.d")
 I (../HARDWARE/timer.h)(0x6B00711D)
 I (../Core/Inc/tim.h)(0x6B00F72A)
 I (../Core/Inc/main.h)(0x6B00764C)

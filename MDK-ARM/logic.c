@@ -14,13 +14,16 @@
 #include "vofa.h"
 #include "logic.h"
 
+static int part = 0;
+
 void all_init(void)
 {
 	encoder1_num = 0;
 	encoder2_num = 0;
+	part = 0;
 }
 
-static int part = 0;
+
 
 /**********题1******/
 void Test1(void)
@@ -52,20 +55,25 @@ void Test2(void)
 		if(Gray_Read_Filter())   
 		{
 			aaa = 0;
+			part = 1;
 		}
 		break;
 		
 		case 1:      //B->C 环
 			all_init();
 			
-			xunji_1(10,10);
+			xunji_1(1500,1500);
+		
+		  part = 2;
 		break;
 		
 		case 2:   // C->D 直线
+	
 			aaa = 2;
 		if(Gray_Read_Filter())
 		{
 			aaa = 0;
+ 			part = 3;
 		}
 		break;
 		
@@ -89,7 +97,7 @@ void Test3(void)
 //	Go_Straight_2();
 //	xunji_1(10,10);
 //	
-	
+	  all_init();
 		switch(part)
 	{
 		case 0:      //A->C 斜45直线

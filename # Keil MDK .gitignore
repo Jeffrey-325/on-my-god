@@ -1,0 +1,21 @@
+# Keil MDK 构建输出
+MDK-ARM/*/
+MDK-ARM/*.uvguix.*
+MDK-ARM/*.uvoptx
+*.o
+*.d
+*.crf
+*.axf
+*.lst
+*.lnp
+*.map
+*.dep
+*.sct
+*.htm
+*.bak
+*.log
+
+# 系统文件
+Thumbs.db
+desktop.ini
+.DS_Store
