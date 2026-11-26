@@ -3,7 +3,7 @@
 <title>Static Call Graph - [on my god\on my god.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image on my god\on my god.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060960: Last Updated: Tue Nov 24 21:27:30 2026
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060960: Last Updated: Sat Nov 28 15:13:24 2026
 <BR><P>
 <H3>Maximum Stack Usage =        560 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -135,7 +135,7 @@ Global Symbols
 <P><STRONG><a name="[5e]"></a>__main</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry.o(.ARM.Collect$$$$00000000))
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f407xx.o(.text)
 </UL>
-<P><STRONG><a name="[15f]"></a>_main_stk</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry2.o(.ARM.Collect$$$$00000001))
+<P><STRONG><a name="[15e]"></a>_main_stk</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry2.o(.ARM.Collect$$$$00000001))
 
 <P><STRONG><a name="[69]"></a>_main_scatterload</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry5.o(.ARM.Collect$$$$00000004))
 <BR><BR>[Calls]<UL><LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload
@@ -145,17 +145,17 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload
 </UL>
 
-<P><STRONG><a name="[160]"></a>_main_clock</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry7b.o(.ARM.Collect$$$$00000008))
+<P><STRONG><a name="[15f]"></a>_main_clock</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry7b.o(.ARM.Collect$$$$00000008))
 
-<P><STRONG><a name="[161]"></a>_main_cpp_init</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry8b.o(.ARM.Collect$$$$0000000A))
+<P><STRONG><a name="[160]"></a>_main_cpp_init</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry8b.o(.ARM.Collect$$$$0000000A))
 
-<P><STRONG><a name="[162]"></a>_main_init</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry9a.o(.ARM.Collect$$$$0000000B))
+<P><STRONG><a name="[161]"></a>_main_init</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry9a.o(.ARM.Collect$$$$0000000B))
 
-<P><STRONG><a name="[163]"></a>__rt_lib_shutdown_fini</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry12b.o(.ARM.Collect$$$$0000000E))
+<P><STRONG><a name="[162]"></a>__rt_lib_shutdown_fini</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry12b.o(.ARM.Collect$$$$0000000E))
 
-<P><STRONG><a name="[164]"></a>__rt_final_cpp</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry10a.o(.ARM.Collect$$$$0000000F))
+<P><STRONG><a name="[163]"></a>__rt_final_cpp</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry10a.o(.ARM.Collect$$$$0000000F))
 
-<P><STRONG><a name="[165]"></a>__rt_final_exit</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry11a.o(.ARM.Collect$$$$00000011))
+<P><STRONG><a name="[164]"></a>__rt_final_exit</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry11a.o(.ARM.Collect$$$$00000011))
 
 <P><STRONG><a name="[1]"></a>Reset_Handler</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, startup_stm32f407xx.o(.text))
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f407xx.o(RESET)
@@ -410,9 +410,9 @@ Global Symbols
 <LI><a href="#[6e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr
 </UL>
 
-<P><STRONG><a name="[166]"></a>__aeabi_memset4</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memseta.o(.text), UNUSED)
+<P><STRONG><a name="[165]"></a>__aeabi_memset4</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memseta.o(.text), UNUSED)
 
-<P><STRONG><a name="[167]"></a>__aeabi_memset8</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memseta.o(.text), UNUSED)
+<P><STRONG><a name="[166]"></a>__aeabi_memset8</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memseta.o(.text), UNUSED)
 
 <P><STRONG><a name="[6e]"></a>__aeabi_memclr</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, memseta.o(.text), UNUSED)
 <BR><BR>[Calls]<UL><LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memset
@@ -426,14 +426,14 @@ Global Symbols
 <LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_TIM1_Init
 <LI><a href="#[f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_GPIO_Init
 <LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemClock_Config
-<LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IMU_getValues
-<LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Encoder_Init
-<LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Encoder2_Init
 <LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SDA_OUT
 <LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SDA_IN
+<LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Encoder_Init
+<LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Encoder2_Init
+<LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IMU_getValues
 </UL>
 
-<P><STRONG><a name="[168]"></a>__aeabi_memclr8</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memseta.o(.text), UNUSED)
+<P><STRONG><a name="[167]"></a>__aeabi_memclr8</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memseta.o(.text), UNUSED)
 
 <P><STRONG><a name="[70]"></a>_memset$wrapper</STRONG> (Thumb, 18 bytes, Stack size 8 bytes, memseta.o(.text), UNUSED)
 <BR><BR>[Calls]<UL><LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memset
@@ -447,15 +447,15 @@ Global Symbols
 <LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_round
 <LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_epilogue
 </UL>
-<BR>[Called By]<UL><LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_pow
+<BR>[Called By]<UL><LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_pow
 <LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_asin
 <LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dsub
 <LI><a href="#[76]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_drsub
 <LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;calGyroVariance
-<LI><a href="#[110]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__kernel_poly
-<LI><a href="#[114]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__mathlib_dbl_infnan2
-<LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__mathlib_dbl_infnan
-<LI><a href="#[113]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_atan
+<LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__kernel_poly
+<LI><a href="#[113]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__mathlib_dbl_infnan2
+<LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__mathlib_dbl_infnan
+<LI><a href="#[112]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_atan
 </UL>
 
 <P><STRONG><a name="[75]"></a>__aeabi_dsub</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, dadd.o(.text))
@@ -463,11 +463,11 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
 </UL>
-<BR>[Called By]<UL><LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_pow
+<BR>[Called By]<UL><LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_pow
 <LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_atan2
 <LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_asin
 <LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;calGyroVariance
-<LI><a href="#[113]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_atan
+<LI><a href="#[112]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_atan
 </UL>
 
 <P><STRONG><a name="[76]"></a>__aeabi_drsub</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, dadd.o(.text))
@@ -475,11 +475,11 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
 </UL>
-<BR>[Called By]<UL><LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_pow
+<BR>[Called By]<UL><LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_pow
 <LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_atan2
 <LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_asin
 <LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;calGyroVariance
-<LI><a href="#[113]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_atan
+<LI><a href="#[112]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_atan
 </UL>
 
 <P><STRONG><a name="[77]"></a>__aeabi_dmul</STRONG> (Thumb, 228 bytes, Stack size 48 bytes, dmul.o(.text))
@@ -487,16 +487,16 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_epilogue
 </UL>
-<BR>[Called By]<UL><LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_pow
+<BR>[Called By]<UL><LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_pow
 <LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_asin
-<LI><a href="#[152]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lsb_to_mg
-<LI><a href="#[153]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lsb_to_dps
+<LI><a href="#[151]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lsb_to_mg
+<LI><a href="#[152]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lsb_to_dps
 <LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;calGyroVariance
 <LI><a href="#[eb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IMU_getYawPitchRoll
-<LI><a href="#[110]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__kernel_poly
-<LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__mathlib_dbl_underflow
-<LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__mathlib_dbl_overflow
-<LI><a href="#[113]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_atan
+<LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__kernel_poly
+<LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__mathlib_dbl_underflow
+<LI><a href="#[118]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__mathlib_dbl_overflow
+<LI><a href="#[112]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_atan
 </UL>
 
 <P><STRONG><a name="[78]"></a>__aeabi_ddiv</STRONG> (Thumb, 222 bytes, Stack size 32 bytes, ddiv.o(.text))
@@ -504,14 +504,14 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_round
 </UL>
-<BR>[Called By]<UL><LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_pow
+<BR>[Called By]<UL><LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_pow
 <LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_atan2
 <LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_asin
 <LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;calGyroVariance
 <LI><a href="#[eb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IMU_getYawPitchRoll
-<LI><a href="#[10d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__mathlib_dbl_invalid
-<LI><a href="#[118]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__mathlib_dbl_divzero
-<LI><a href="#[113]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_atan
+<LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__mathlib_dbl_invalid
+<LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__mathlib_dbl_divzero
+<LI><a href="#[112]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_atan
 </UL>
 
 <P><STRONG><a name="[79]"></a>__aeabi_i2d</STRONG> (Thumb, 34 bytes, Stack size 16 bytes, dflti.o(.text))
@@ -519,7 +519,7 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_epilogue
 </UL>
-<BR>[Called By]<UL><LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_pow
+<BR>[Called By]<UL><LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_pow
 <LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;calGyroVariance
 </UL>
 
@@ -528,8 +528,8 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_epilogue
 </UL>
-<BR>[Called By]<UL><LI><a href="#[152]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lsb_to_mg
-<LI><a href="#[153]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lsb_to_dps
+<BR>[Called By]<UL><LI><a href="#[151]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lsb_to_mg
+<LI><a href="#[152]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lsb_to_dps
 </UL>
 
 <P><STRONG><a name="[f2]"></a>__aeabi_f2d</STRONG> (Thumb, 38 bytes, Stack size 0 bytes, f2d.o(.text))
@@ -542,16 +542,16 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_float_round
 </UL>
-<BR>[Called By]<UL><LI><a href="#[152]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lsb_to_mg
-<LI><a href="#[153]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lsb_to_dps
+<BR>[Called By]<UL><LI><a href="#[151]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lsb_to_mg
+<LI><a href="#[152]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lsb_to_dps
 <LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;calGyroVariance
 <LI><a href="#[eb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IMU_getYawPitchRoll
 </UL>
 
-<P><STRONG><a name="[169]"></a>__aeabi_uidiv</STRONG> (Thumb, 0 bytes, Stack size 12 bytes, uidiv.o(.text), UNUSED)
+<P><STRONG><a name="[168]"></a>__aeabi_uidiv</STRONG> (Thumb, 0 bytes, Stack size 12 bytes, uidiv.o(.text), UNUSED)
 
-<P><STRONG><a name="[11c]"></a>__aeabi_uidivmod</STRONG> (Thumb, 44 bytes, Stack size 12 bytes, uidiv.o(.text), UNUSED)
-<BR><BR>[Called By]<UL><LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
+<P><STRONG><a name="[11b]"></a>__aeabi_uidivmod</STRONG> (Thumb, 44 bytes, Stack size 12 bytes, uidiv.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
 </UL>
 
 <P><STRONG><a name="[6d]"></a>__aeabi_llsl</STRONG> (Thumb, 30 bytes, Stack size 0 bytes, llshl.o(.text))
@@ -560,7 +560,7 @@ Global Symbols
 <LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_epilogue
 </UL>
 
-<P><STRONG><a name="[16a]"></a>_ll_shift_l</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, llshl.o(.text), UNUSED)
+<P><STRONG><a name="[169]"></a>_ll_shift_l</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, llshl.o(.text), UNUSED)
 
 <P><STRONG><a name="[6c]"></a>__aeabi_llsr</STRONG> (Thumb, 32 bytes, Stack size 0 bytes, llushr.o(.text))
 <BR><BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uldivmod
@@ -568,21 +568,21 @@ Global Symbols
 <LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_epilogue
 </UL>
 
-<P><STRONG><a name="[16b]"></a>_ll_ushift_r</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, llushr.o(.text), UNUSED)
+<P><STRONG><a name="[16a]"></a>_ll_ushift_r</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, llushr.o(.text), UNUSED)
 
 <P><STRONG><a name="[72]"></a>__aeabi_lasr</STRONG> (Thumb, 36 bytes, Stack size 0 bytes, llsshr.o(.text))
 <BR><BR>[Called By]<UL><LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
 </UL>
 
-<P><STRONG><a name="[16c]"></a>_ll_sshift_r</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, llsshr.o(.text), UNUSED)
+<P><STRONG><a name="[16b]"></a>_ll_sshift_r</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, llsshr.o(.text), UNUSED)
 
-<P><STRONG><a name="[16d]"></a>__I$use$fp</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, iusefp.o(.text), UNUSED)
+<P><STRONG><a name="[16c]"></a>__I$use$fp</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, iusefp.o(.text), UNUSED)
 
 <P><STRONG><a name="[7c]"></a>_float_round</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, fepilogue.o(.text))
 <BR><BR>[Called By]<UL><LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_d2f
 </UL>
 
-<P><STRONG><a name="[16e]"></a>_float_epilogue</STRONG> (Thumb, 92 bytes, Stack size 4 bytes, fepilogue.o(.text), UNUSED)
+<P><STRONG><a name="[16d]"></a>_float_epilogue</STRONG> (Thumb, 92 bytes, Stack size 4 bytes, fepilogue.o(.text), UNUSED)
 
 <P><STRONG><a name="[74]"></a>_double_round</STRONG> (Thumb, 30 bytes, Stack size 8 bytes, depilogue.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = _double_round
@@ -606,22 +606,22 @@ Global Symbols
 <LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
 </UL>
 
-<P><STRONG><a name="[11b]"></a>__ARM_scalbn</STRONG> (Thumb, 46 bytes, Stack size 16 bytes, dscalb.o(.text))
+<P><STRONG><a name="[11a]"></a>__ARM_scalbn</STRONG> (Thumb, 46 bytes, Stack size 16 bytes, dscalb.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = __ARM_scalbn
 </UL>
-<BR>[Called By]<UL><LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_pow
+<BR>[Called By]<UL><LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_pow
 </UL>
 
-<P><STRONG><a name="[16f]"></a>scalbn</STRONG> (Thumb, 0 bytes, Stack size 16 bytes, dscalb.o(.text), UNUSED)
+<P><STRONG><a name="[16e]"></a>scalbn</STRONG> (Thumb, 0 bytes, Stack size 16 bytes, dscalb.o(.text), UNUSED)
 
-<P><STRONG><a name="[116]"></a>__aeabi_cdcmpeq</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, cdcmple.o(.text))
+<P><STRONG><a name="[115]"></a>__aeabi_cdcmpeq</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, cdcmple.o(.text))
 <BR><BR>[Called By]<UL><LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_atan2
 </UL>
 
-<P><STRONG><a name="[170]"></a>__aeabi_cdcmple</STRONG> (Thumb, 48 bytes, Stack size 0 bytes, cdcmple.o(.text), UNUSED)
+<P><STRONG><a name="[16f]"></a>__aeabi_cdcmple</STRONG> (Thumb, 48 bytes, Stack size 0 bytes, cdcmple.o(.text), UNUSED)
 
-<P><STRONG><a name="[11a]"></a>__aeabi_cdrcmple</STRONG> (Thumb, 48 bytes, Stack size 0 bytes, cdrcmple.o(.text))
-<BR><BR>[Called By]<UL><LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_pow
+<P><STRONG><a name="[119]"></a>__aeabi_cdrcmple</STRONG> (Thumb, 48 bytes, Stack size 0 bytes, cdrcmple.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_pow
 </UL>
 
 <P><STRONG><a name="[6a]"></a>__scatterload</STRONG> (Thumb, 28 bytes, Stack size 0 bytes, init.o(.text))
@@ -630,7 +630,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_main_scatterload
 </UL>
 
-<P><STRONG><a name="[171]"></a>__scatterload_rt2</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, init.o(.text), UNUSED)
+<P><STRONG><a name="[170]"></a>__scatterload_rt2</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, init.o(.text), UNUSED)
 
 <P><STRONG><a name="[7e]"></a>_dsqrt</STRONG> (Thumb, 162 bytes, Stack size 32 bytes, dsqrt.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = _dsqrt &rArr; _double_round
@@ -638,7 +638,7 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsr
 <LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_round
 </UL>
-<BR>[Called By]<UL><LI><a href="#[112]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sqrt
+<BR>[Called By]<UL><LI><a href="#[111]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sqrt
 </UL>
 
 <P><STRONG><a name="[7f]"></a>ALL_Init</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, allneed.o(i.ALL_Init))
@@ -700,8 +700,8 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_SetPriority
 <LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_EnableIRQ
 <LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_Init
-<LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
 <LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Encoder2_ReadState
+<LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
 </UL>
 <BR>[Called By]<UL><LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Encoder_Init
 </UL>
@@ -723,9 +723,9 @@ Global Symbols
 <BR><BR>[Stack]<UL><LI>Max Depth = 104<LI>Call Chain = Encoder_Init &rArr; Encoder2_Init &rArr; HAL_GPIO_Init
 </UL>
 <BR>[Calls]<UL><LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_Init
-<LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
 <LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Encoder2_Init
 <LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Encoder_ReadState
+<LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
 </UL>
 <BR>[Called By]<UL><LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ALL_Init
 </UL>
@@ -744,7 +744,7 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_ReadPin
 </UL>
-<BR>[Called By]<UL><LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Test2
+<BR>[Called By]<UL><LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Test3
 </UL>
 
 <P><STRONG><a name="[93]"></a>HAL_DMA_Abort</STRONG> (Thumb, 146 bytes, Stack size 24 bytes, stm32f4xx_hal_dma.o(i.HAL_DMA_Abort))
@@ -783,28 +783,24 @@ Global Symbols
 <LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_MspInit
 <LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_I2C_MspInit
 <LI><a href="#[f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_GPIO_Init
-<LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_interface_init
-<LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Encoder_Init
-<LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Encoder2_Init
 <LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SDA_OUT
 <LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SDA_IN
+<LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Encoder_Init
+<LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Encoder2_Init
+<LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_interface_init
 </UL>
 
 <P><STRONG><a name="[8f]"></a>HAL_GPIO_ReadPin</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, stm32f4xx_hal_gpio.o(i.HAL_GPIO_ReadPin))
-<BR><BR>[Called By]<UL><LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xunji_1
+<BR><BR>[Called By]<UL><LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_Wait_Ack
+<LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_Read_Byte
+<LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xunji_1
 <LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Gray_Read_Filter
 <LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Encoder_ReadState
 <LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Encoder2_ReadState
-<LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_Wait_Ack
-<LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_Read_Byte
 </UL>
 
 <P><STRONG><a name="[d0]"></a>HAL_GPIO_WritePin</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, stm32f4xx_hal_gpio.o(i.HAL_GPIO_WritePin))
 <BR><BR>[Called By]<UL><LI><a href="#[f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_GPIO_Init
-<LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_spi_write
-<LI><a href="#[66]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_spi_read
-<LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_interface_init
-<LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SET_Motor_PWM
 <LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_Wait_Ack
 <LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_Stop
 <LI><a href="#[d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_Start
@@ -813,15 +809,20 @@ Global Symbols
 <LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_NAck
 <LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_Init
 <LI><a href="#[cf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_Ack
+<LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SET_Motor_PWM
+<LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_spi_write
+<LI><a href="#[66]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_spi_read
+<LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_interface_init
 </UL>
 
 <P><STRONG><a name="[94]"></a>HAL_GetTick</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f4xx_hal.o(i.HAL_GetTick))
-<BR><BR>[Called By]<UL><LI><a href="#[cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_Transmit
+<BR><BR>[Called By]<UL><LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Test3
+<LI><a href="#[cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_Transmit
 <LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_OscConfig
 <LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_ClockConfig
-<LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_TransmitReceive
 <LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_WaitFlagStateUntilTimeout
 <LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DMA_Abort
+<LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_TransmitReceive
 <LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_WaitOnFlagUntilTimeout
 </UL>
 
@@ -851,8 +852,8 @@ Global Symbols
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = HAL_Init &rArr; HAL_InitTick &rArr; HAL_NVIC_SetPriority
 </UL>
 <BR>[Calls]<UL><LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_MspInit
-<LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
 <LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_SetPriorityGrouping
+<LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
 </UL>
 <BR>[Called By]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
@@ -909,7 +910,7 @@ Global Symbols
 <LI><a href="#[cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_SetConfig
 </UL>
 
-<P><STRONG><a name="[108]"></a>HAL_RCC_GetPCLK2Freq</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f4xx_hal_rcc.o(i.HAL_RCC_GetPCLK2Freq))
+<P><STRONG><a name="[107]"></a>HAL_RCC_GetPCLK2Freq</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f4xx_hal_rcc.o(i.HAL_RCC_GetPCLK2Freq))
 <BR><BR>[Called By]<UL><LI><a href="#[cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_SetConfig
 </UL>
 
@@ -949,8 +950,8 @@ Global Symbols
 <P><STRONG><a name="[a4]"></a>HAL_SPI_TransmitReceive</STRONG> (Thumb, 496 bytes, Stack size 56 bytes, stm32f4xx_hal_spi.o(i.HAL_SPI_TransmitReceive))
 <BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
 </UL>
-<BR>[Calls]<UL><LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
-<LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_EndRxTxTransaction
+<BR>[Calls]<UL><LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_EndRxTxTransaction
+<LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
 </UL>
 <BR>[Called By]<UL><LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI1_ReadWriteByte
 </UL>
@@ -1005,7 +1006,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_TIM_Base_Init
 </UL>
 
-<P><STRONG><a name="[15d]"></a>HAL_TIM_Base_Start_IT</STRONG> (Thumb, 100 bytes, Stack size 0 bytes, stm32f4xx_hal_tim.o(i.HAL_TIM_Base_Start_IT))
+<P><STRONG><a name="[15c]"></a>HAL_TIM_Base_Start_IT</STRONG> (Thumb, 100 bytes, Stack size 0 bytes, stm32f4xx_hal_tim.o(i.HAL_TIM_Base_Start_IT))
 <BR><BR>[Called By]<UL><LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_Init
 </UL>
 
@@ -1117,8 +1118,8 @@ Global Symbols
 <P><STRONG><a name="[c3]"></a>HAL_UART_IRQHandler</STRONG> (Thumb, 636 bytes, Stack size 24 bytes, stm32f4xx_hal_uart.o(i.HAL_UART_IRQHandler))
 <BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = HAL_UART_IRQHandler &rArr; HAL_DMA_Abort
 </UL>
-<BR>[Calls]<UL><LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DMA_Abort_IT
-<LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DMA_Abort
+<BR>[Calls]<UL><LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DMA_Abort
+<LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DMA_Abort_IT
 <LI><a href="#[c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_TxCpltCallback
 <LI><a href="#[c7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_ErrorCallback
 <LI><a href="#[c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UARTEx_RxEventCallback
@@ -1148,7 +1149,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_Init
 </UL>
 
-<P><STRONG><a name="[107]"></a>HAL_UART_RxCpltCallback</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f4xx_hal_uart.o(i.HAL_UART_RxCpltCallback))
+<P><STRONG><a name="[106]"></a>HAL_UART_RxCpltCallback</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f4xx_hal_uart.o(i.HAL_UART_RxCpltCallback))
 <BR><BR>[Called By]<UL><LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_Receive_IT
 </UL>
 
@@ -1176,8 +1177,8 @@ Global Symbols
 <BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = IIC_Ack &rArr; SDA_OUT &rArr; HAL_GPIO_Init
 </UL>
 <BR>[Calls]<UL><LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_WritePin
-<LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_us
 <LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SDA_OUT
+<LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_us
 </UL>
 <BR>[Called By]<UL><LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_Read_Byte
 </UL>
@@ -1194,8 +1195,8 @@ Global Symbols
 <BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = IIC_NAck &rArr; SDA_OUT &rArr; HAL_GPIO_Init
 </UL>
 <BR>[Calls]<UL><LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_WritePin
-<LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_us
 <LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SDA_OUT
+<LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_us
 </UL>
 <BR>[Called By]<UL><LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_Read_Byte
 </UL>
@@ -1204,11 +1205,11 @@ Global Symbols
 <BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = IIC_Read_Byte &rArr; IIC_NAck &rArr; SDA_OUT &rArr; HAL_GPIO_Init
 </UL>
 <BR>[Calls]<UL><LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_WritePin
-<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_ReadPin
-<LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_us
 <LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_NAck
 <LI><a href="#[cf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_Ack
 <LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SDA_IN
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_ReadPin
+<LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_us
 </UL>
 <BR>[Called By]<UL><LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_Read_nByte
 </UL>
@@ -1229,8 +1230,8 @@ Global Symbols
 <BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = IIC_Send_Byte &rArr; SDA_OUT &rArr; HAL_GPIO_Init
 </UL>
 <BR>[Calls]<UL><LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_WritePin
-<LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_us
 <LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SDA_OUT
+<LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_us
 </UL>
 <BR>[Called By]<UL><LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_Write_nByte
 <LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_Read_nByte
@@ -1240,8 +1241,8 @@ Global Symbols
 <BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = IIC_Start &rArr; SDA_OUT &rArr; HAL_GPIO_Init
 </UL>
 <BR>[Calls]<UL><LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_WritePin
-<LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_us
 <LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SDA_OUT
+<LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_us
 </UL>
 <BR>[Called By]<UL><LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_Write_nByte
 <LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_Read_nByte
@@ -1251,8 +1252,8 @@ Global Symbols
 <BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = IIC_Stop &rArr; SDA_OUT &rArr; HAL_GPIO_Init
 </UL>
 <BR>[Calls]<UL><LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_WritePin
-<LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_us
 <LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SDA_OUT
+<LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_us
 </UL>
 <BR>[Called By]<UL><LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_Write_nByte
 <LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_Wait_Ack
@@ -1263,10 +1264,10 @@ Global Symbols
 <BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = IIC_Wait_Ack &rArr; IIC_Stop &rArr; SDA_OUT &rArr; HAL_GPIO_Init
 </UL>
 <BR>[Calls]<UL><LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_WritePin
-<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_ReadPin
-<LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_us
 <LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_Stop
 <LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SDA_IN
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_ReadPin
+<LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_us
 </UL>
 <BR>[Called By]<UL><LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_Write_nByte
 <LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_Read_nByte
@@ -1295,17 +1296,17 @@ Global Symbols
 <P><STRONG><a name="[81]"></a>IMU_INIT</STRONG> (Thumb, 200 bytes, Stack size 136 bytes, imu_bsp.o(i.IMU_INIT))
 <BR><BR>[Stack]<UL><LI>Max Depth = 512<LI>Call Chain = IMU_INIT &rArr; bmi2_aux_conf &rArr; bmi2_set_sensor_config &rArr; set_gyro_user_gain_config &rArr; bmi2_get_feat_config &rArr; bmi2_get_regs
 </UL>
-<BR>[Calls]<UL><LI><a href="#[e2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_aux_interface_init
-<LI><a href="#[e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_aux_conf
-<LI><a href="#[ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IMU_init
-<LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_interface_init
-<LI><a href="#[e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_error_codes_print_result
-<LI><a href="#[e3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi270_init
+<BR>[Calls]<UL><LI><a href="#[e3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi270_init
 <LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_set_sensor_config
 <LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_set_regs
 <LI><a href="#[e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_sensor_enable
 <LI><a href="#[e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_map_data_int
 <LI><a href="#[e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_sensor_config
+<LI><a href="#[e2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_aux_interface_init
+<LI><a href="#[e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_aux_conf
+<LI><a href="#[ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IMU_init
+<LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_interface_init
+<LI><a href="#[e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_error_codes_print_result
 </UL>
 <BR>[Called By]<UL><LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ALL_Init
 </UL>
@@ -1445,7 +1446,7 @@ Global Symbols
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f407xx.o(RESET)
 </UL>
 <P><STRONG><a name="[85]"></a>PID_location</STRONG> (Thumb, 164 bytes, Stack size 0 bytes, pid.o(i.PID_location))
-<BR><BR>[Called By]<UL><LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xunji_1
+<BR><BR>[Called By]<UL><LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xunji_1
 <LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Angle_Control
 </UL>
 
@@ -1458,7 +1459,7 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_WritePin
 </UL>
 <BR>[Called By]<UL><LI><a href="#[b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_TIM_PeriodElapsedCallback
-<LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xunji_1
+<LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xunji_1
 <LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Angle_Control
 </UL>
 
@@ -1475,12 +1476,12 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_TransmitReceive
 </UL>
-<BR>[Called By]<UL><LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_spi_write
+<BR>[Called By]<UL><LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI1_Init
+<LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_spi_write
 <LI><a href="#[66]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_spi_read
-<LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI1_Init
 </UL>
 
-<P><STRONG><a name="[137]"></a>SPI1_SetSpeed</STRONG> (Thumb, 46 bytes, Stack size 8 bytes, bmi270_spi.o(i.SPI1_SetSpeed))
+<P><STRONG><a name="[136]"></a>SPI1_SetSpeed</STRONG> (Thumb, 46 bytes, Stack size 8 bytes, bmi270_spi.o(i.SPI1_SetSpeed))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = SPI1_SetSpeed
 </UL>
 <BR>[Called By]<UL><LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_interface_init
@@ -1546,11 +1547,11 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[b7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_TIM_PWM_ConfigChannel
 </UL>
 
-<P><STRONG><a name="[104]"></a>Test2</STRONG> (Thumb, 98 bytes, Stack size 24 bytes, logic.o(i.Test2))
-<BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = Test2 &rArr; xunji_1 &rArr; SET_Motor_PWM
+<P><STRONG><a name="[104]"></a>Test3</STRONG> (Thumb, 186 bytes, Stack size 40 bytes, logic.o(i.Test3))
+<BR><BR>[Stack]<UL><LI>Max Depth = 128<LI>Call Chain = Test3 &rArr; xunji_1 &rArr; SET_Motor_PWM
 </UL>
-<BR>[Calls]<UL><LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;all_init
-<LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xunji_1
+<BR>[Calls]<UL><LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
+<LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xunji_1
 <LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Gray_Read_Filter
 </UL>
 <BR>[Called By]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
@@ -1570,13 +1571,13 @@ Global Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f407xx.o(RESET)
 </UL>
-<P><STRONG><a name="[109]"></a>__0printf$3</STRONG> (Thumb, 22 bytes, Stack size 24 bytes, printf3.o(i.__0printf$3), UNUSED)
-<BR><BR>[Calls]<UL><LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
+<P><STRONG><a name="[108]"></a>__0printf$3</STRONG> (Thumb, 22 bytes, Stack size 24 bytes, printf3.o(i.__0printf$3), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
 </UL>
 
-<P><STRONG><a name="[172]"></a>__1printf$3</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, printf3.o(i.__0printf$3), UNUSED)
+<P><STRONG><a name="[171]"></a>__1printf$3</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, printf3.o(i.__0printf$3), UNUSED)
 
-<P><STRONG><a name="[120]"></a>__2printf</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, printf3.o(i.__0printf$3))
+<P><STRONG><a name="[11f]"></a>__2printf</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, printf3.o(i.__0printf$3))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = __2printf
 </UL>
 <BR>[Called By]<UL><LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmm150_error_codes_print_result
@@ -1584,12 +1585,12 @@ Global Symbols
 <LI><a href="#[e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_error_codes_print_result
 </UL>
 
-<P><STRONG><a name="[10e]"></a>__ARM_fpclassify</STRONG> (Thumb, 48 bytes, Stack size 8 bytes, fpclassify.o(i.__ARM_fpclassify))
+<P><STRONG><a name="[10d]"></a>__ARM_fpclassify</STRONG> (Thumb, 48 bytes, Stack size 8 bytes, fpclassify.o(i.__ARM_fpclassify))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = __ARM_fpclassify
 </UL>
-<BR>[Called By]<UL><LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_pow
+<BR>[Called By]<UL><LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_pow
 <LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_asin
-<LI><a href="#[113]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_atan
+<LI><a href="#[112]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_atan
 </UL>
 
 <P><STRONG><a name="[f4]"></a>__hardfp_asin</STRONG> (Thumb, 770 bytes, Stack size 88 bytes, asin.o(i.__hardfp_asin))
@@ -1600,19 +1601,19 @@ Global Symbols
 <LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dmul
 <LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ddiv
 <LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
-<LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__set_errno
-<LI><a href="#[112]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sqrt
-<LI><a href="#[110]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__kernel_poly
-<LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_fpclassify
-<LI><a href="#[111]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;fabs
-<LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__mathlib_dbl_underflow
-<LI><a href="#[10d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__mathlib_dbl_invalid
-<LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__mathlib_dbl_infnan
+<LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__set_errno
+<LI><a href="#[111]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sqrt
+<LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__kernel_poly
+<LI><a href="#[10d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_fpclassify
+<LI><a href="#[110]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;fabs
+<LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__mathlib_dbl_underflow
+<LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__mathlib_dbl_invalid
+<LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__mathlib_dbl_infnan
 </UL>
 <BR>[Called By]<UL><LI><a href="#[eb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IMU_getYawPitchRoll
 </UL>
 
-<P><STRONG><a name="[113]"></a>__hardfp_atan</STRONG> (Thumb, 622 bytes, Stack size 48 bytes, atan.o(i.__hardfp_atan))
+<P><STRONG><a name="[112]"></a>__hardfp_atan</STRONG> (Thumb, 622 bytes, Stack size 48 bytes, atan.o(i.__hardfp_atan))
 <BR><BR>[Stack]<UL><LI>Max Depth = 160<LI>Call Chain = __hardfp_atan &rArr; __kernel_poly &rArr; __aeabi_dmul &rArr; _double_epilogue &rArr; _double_round
 </UL>
 <BR>[Calls]<UL><LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dsub
@@ -1620,141 +1621,137 @@ Global Symbols
 <LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dmul
 <LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ddiv
 <LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
-<LI><a href="#[110]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__kernel_poly
-<LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_fpclassify
-<LI><a href="#[111]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;fabs
-<LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__mathlib_dbl_underflow
-<LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__mathlib_dbl_infnan
+<LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__kernel_poly
+<LI><a href="#[10d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_fpclassify
+<LI><a href="#[110]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;fabs
+<LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__mathlib_dbl_underflow
+<LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__mathlib_dbl_infnan
 </UL>
-<BR>[Called By]<UL><LI><a href="#[115]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;atan
+<BR>[Called By]<UL><LI><a href="#[114]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;atan
 </UL>
 
 <P><STRONG><a name="[f3]"></a>__hardfp_atan2</STRONG> (Thumb, 448 bytes, Stack size 56 bytes, atan2.o(i.__hardfp_atan2))
 <BR><BR>[Stack]<UL><LI>Max Depth = 224<LI>Call Chain = __hardfp_atan2 &rArr; atan &rArr; __hardfp_atan &rArr; __kernel_poly &rArr; __aeabi_dmul &rArr; _double_epilogue &rArr; _double_round
 </UL>
-<BR>[Calls]<UL><LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_cdcmpeq
+<BR>[Calls]<UL><LI><a href="#[115]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_cdcmpeq
 <LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dsub
 <LI><a href="#[76]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_drsub
 <LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ddiv
-<LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__set_errno
-<LI><a href="#[111]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;fabs
-<LI><a href="#[114]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__mathlib_dbl_infnan2
-<LI><a href="#[115]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;atan
+<LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__set_errno
+<LI><a href="#[110]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;fabs
+<LI><a href="#[113]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__mathlib_dbl_infnan2
+<LI><a href="#[114]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;atan
 </UL>
 <BR>[Called By]<UL><LI><a href="#[eb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IMU_getYawPitchRoll
 </UL>
 
-<P><STRONG><a name="[117]"></a>__hardfp_pow</STRONG> (Thumb, 3072 bytes, Stack size 192 bytes, pow.o(i.__hardfp_pow))
+<P><STRONG><a name="[116]"></a>__hardfp_pow</STRONG> (Thumb, 3072 bytes, Stack size 192 bytes, pow.o(i.__hardfp_pow))
 <BR><BR>[Stack]<UL><LI>Max Depth = 304<LI>Call Chain = __hardfp_pow &rArr; __kernel_poly &rArr; __aeabi_dmul &rArr; _double_epilogue &rArr; _double_round
 </UL>
-<BR>[Calls]<UL><LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_cdrcmple
-<LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_scalbn
+<BR>[Calls]<UL><LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_cdrcmple
+<LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_scalbn
 <LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_i2d
 <LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dsub
 <LI><a href="#[76]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_drsub
 <LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dmul
 <LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ddiv
 <LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
-<LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__set_errno
-<LI><a href="#[112]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sqrt
-<LI><a href="#[110]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__kernel_poly
-<LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_fpclassify
-<LI><a href="#[111]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;fabs
-<LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__mathlib_dbl_underflow
-<LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__mathlib_dbl_overflow
-<LI><a href="#[10d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__mathlib_dbl_invalid
-<LI><a href="#[114]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__mathlib_dbl_infnan2
-<LI><a href="#[118]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__mathlib_dbl_divzero
+<LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__set_errno
+<LI><a href="#[111]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sqrt
+<LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__kernel_poly
+<LI><a href="#[10d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_fpclassify
+<LI><a href="#[110]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;fabs
+<LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__mathlib_dbl_underflow
+<LI><a href="#[118]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__mathlib_dbl_overflow
+<LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__mathlib_dbl_invalid
+<LI><a href="#[113]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__mathlib_dbl_infnan2
+<LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__mathlib_dbl_divzero
 </UL>
-<BR>[Called By]<UL><LI><a href="#[152]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lsb_to_mg
-<LI><a href="#[153]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lsb_to_dps
+<BR>[Called By]<UL><LI><a href="#[151]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lsb_to_mg
+<LI><a href="#[152]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lsb_to_dps
 </UL>
 
-<P><STRONG><a name="[110]"></a>__kernel_poly</STRONG> (Thumb, 248 bytes, Stack size 24 bytes, poly.o(i.__kernel_poly))
+<P><STRONG><a name="[10f]"></a>__kernel_poly</STRONG> (Thumb, 248 bytes, Stack size 24 bytes, poly.o(i.__kernel_poly))
 <BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = __kernel_poly &rArr; __aeabi_dmul &rArr; _double_epilogue &rArr; _double_round
 </UL>
 <BR>[Calls]<UL><LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dmul
 <LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
 </UL>
-<BR>[Called By]<UL><LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_pow
+<BR>[Called By]<UL><LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_pow
 <LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_asin
-<LI><a href="#[113]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_atan
+<LI><a href="#[112]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_atan
 </UL>
 
-<P><STRONG><a name="[118]"></a>__mathlib_dbl_divzero</STRONG> (Thumb, 28 bytes, Stack size 8 bytes, dunder.o(i.__mathlib_dbl_divzero))
+<P><STRONG><a name="[117]"></a>__mathlib_dbl_divzero</STRONG> (Thumb, 28 bytes, Stack size 8 bytes, dunder.o(i.__mathlib_dbl_divzero))
 <BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = __mathlib_dbl_divzero &rArr; __aeabi_ddiv &rArr; _double_round
 </UL>
 <BR>[Calls]<UL><LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ddiv
 </UL>
-<BR>[Called By]<UL><LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_pow
+<BR>[Called By]<UL><LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_pow
 </UL>
 
-<P><STRONG><a name="[10b]"></a>__mathlib_dbl_infnan</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, dunder.o(i.__mathlib_dbl_infnan))
+<P><STRONG><a name="[10a]"></a>__mathlib_dbl_infnan</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, dunder.o(i.__mathlib_dbl_infnan))
 <BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = __mathlib_dbl_infnan &rArr; __aeabi_dadd &rArr; _double_epilogue &rArr; _double_round
 </UL>
 <BR>[Calls]<UL><LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
 </UL>
 <BR>[Called By]<UL><LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_asin
-<LI><a href="#[113]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_atan
+<LI><a href="#[112]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_atan
 </UL>
 
-<P><STRONG><a name="[114]"></a>__mathlib_dbl_infnan2</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, dunder.o(i.__mathlib_dbl_infnan2))
+<P><STRONG><a name="[113]"></a>__mathlib_dbl_infnan2</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, dunder.o(i.__mathlib_dbl_infnan2))
 <BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = __mathlib_dbl_infnan2 &rArr; __aeabi_dadd &rArr; _double_epilogue &rArr; _double_round
 </UL>
 <BR>[Calls]<UL><LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
 </UL>
-<BR>[Called By]<UL><LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_pow
+<BR>[Called By]<UL><LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_pow
 <LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_atan2
 </UL>
 
-<P><STRONG><a name="[10d]"></a>__mathlib_dbl_invalid</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, dunder.o(i.__mathlib_dbl_invalid))
+<P><STRONG><a name="[10c]"></a>__mathlib_dbl_invalid</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, dunder.o(i.__mathlib_dbl_invalid))
 <BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = __mathlib_dbl_invalid &rArr; __aeabi_ddiv &rArr; _double_round
 </UL>
 <BR>[Calls]<UL><LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ddiv
 </UL>
-<BR>[Called By]<UL><LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_pow
+<BR>[Called By]<UL><LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_pow
 <LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_asin
 </UL>
 
-<P><STRONG><a name="[119]"></a>__mathlib_dbl_overflow</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, dunder.o(i.__mathlib_dbl_overflow))
+<P><STRONG><a name="[118]"></a>__mathlib_dbl_overflow</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, dunder.o(i.__mathlib_dbl_overflow))
 <BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = __mathlib_dbl_overflow &rArr; __aeabi_dmul &rArr; _double_epilogue &rArr; _double_round
 </UL>
 <BR>[Calls]<UL><LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dmul
 </UL>
-<BR>[Called By]<UL><LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_pow
+<BR>[Called By]<UL><LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_pow
 </UL>
 
-<P><STRONG><a name="[10f]"></a>__mathlib_dbl_underflow</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, dunder.o(i.__mathlib_dbl_underflow))
+<P><STRONG><a name="[10e]"></a>__mathlib_dbl_underflow</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, dunder.o(i.__mathlib_dbl_underflow))
 <BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = __mathlib_dbl_underflow &rArr; __aeabi_dmul &rArr; _double_epilogue &rArr; _double_round
 </UL>
 <BR>[Calls]<UL><LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dmul
 </UL>
-<BR>[Called By]<UL><LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_pow
+<BR>[Called By]<UL><LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_pow
 <LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_asin
-<LI><a href="#[113]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_atan
+<LI><a href="#[112]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_atan
 </UL>
 
-<P><STRONG><a name="[173]"></a>__scatterload_copy</STRONG> (Thumb, 14 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_copy), UNUSED)
+<P><STRONG><a name="[172]"></a>__scatterload_copy</STRONG> (Thumb, 14 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_copy), UNUSED)
 
-<P><STRONG><a name="[174]"></a>__scatterload_null</STRONG> (Thumb, 2 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_null), UNUSED)
+<P><STRONG><a name="[173]"></a>__scatterload_null</STRONG> (Thumb, 2 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_null), UNUSED)
 
-<P><STRONG><a name="[175]"></a>__scatterload_zeroinit</STRONG> (Thumb, 14 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_zeroinit), UNUSED)
+<P><STRONG><a name="[174]"></a>__scatterload_zeroinit</STRONG> (Thumb, 14 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_zeroinit), UNUSED)
 
-<P><STRONG><a name="[10c]"></a>__set_errno</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, errno.o(i.__set_errno))
-<BR><BR>[Called By]<UL><LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_pow
+<P><STRONG><a name="[10b]"></a>__set_errno</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, errno.o(i.__set_errno))
+<BR><BR>[Called By]<UL><LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_pow
 <LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_atan2
 <LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_asin
-<LI><a href="#[112]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sqrt
+<LI><a href="#[111]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sqrt
 </UL>
 
-<P><STRONG><a name="[105]"></a>all_init</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, logic.o(i.all_init))
-<BR><BR>[Called By]<UL><LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Test2
-</UL>
-
-<P><STRONG><a name="[115]"></a>atan</STRONG> (Thumb, 16 bytes, Stack size 8 bytes, atan.o(i.atan))
+<P><STRONG><a name="[114]"></a>atan</STRONG> (Thumb, 16 bytes, Stack size 8 bytes, atan.o(i.atan))
 <BR><BR>[Stack]<UL><LI>Max Depth = 168<LI>Call Chain = atan &rArr; __hardfp_atan &rArr; __kernel_poly &rArr; __aeabi_dmul &rArr; _double_epilogue &rArr; _double_round
 </UL>
-<BR>[Calls]<UL><LI><a href="#[113]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_atan
+<BR>[Calls]<UL><LI><a href="#[112]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_atan
 </UL>
 <BR>[Called By]<UL><LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_atan2
 </UL>
@@ -1762,9 +1759,9 @@ Global Symbols
 <P><STRONG><a name="[e3]"></a>bmi270_init</STRONG> (Thumb, 102 bytes, Stack size 8 bytes, bmi270.o(i.bmi270_init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 304<LI>Call Chain = bmi270_init &rArr; bmi2_get_gyro_cross_sense &rArr; bmi2_get_feature_data &rArr; get_gyro_cross_sense &rArr; bmi2_get_feat_config &rArr; bmi2_get_regs
 </UL>
-<BR>[Calls]<UL><LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;null_ptr_check
-<LI><a href="#[11e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_sec_init
-<LI><a href="#[11f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_gyro_cross_sense
+<BR>[Calls]<UL><LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;null_ptr_check
+<LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_sec_init
+<LI><a href="#[11e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_gyro_cross_sense
 </UL>
 <BR>[Called By]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IMU_INIT
 </UL>
@@ -1783,119 +1780,119 @@ Global Symbols
 <P><STRONG><a name="[e1]"></a>bmi2_error_codes_print_result</STRONG> (Thumb, 254 bytes, Stack size 0 bytes, common.o(i.bmi2_error_codes_print_result))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = bmi2_error_codes_print_result &rArr; __2printf
 </UL>
-<BR>[Calls]<UL><LI><a href="#[120]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
+<BR>[Calls]<UL><LI><a href="#[11f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
 </UL>
-<BR>[Called By]<UL><LI><a href="#[e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_aux_conf
+<BR>[Called By]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IMU_INIT
+<LI><a href="#[e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_aux_conf
 <LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_BmiGetRawData
-<LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IMU_INIT
 </UL>
 
-<P><STRONG><a name="[157]"></a>bmi2_extract_input_feat_config</STRONG> (Thumb, 54 bytes, Stack size 20 bytes, bmi2.o(i.bmi2_extract_input_feat_config))
+<P><STRONG><a name="[156]"></a>bmi2_extract_input_feat_config</STRONG> (Thumb, 54 bytes, Stack size 20 bytes, bmi2.o(i.bmi2_extract_input_feat_config))
 <BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = bmi2_extract_input_feat_config
 </UL>
-<BR>[Called By]<UL><LI><a href="#[143]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_gyro_user_gain_config
-<LI><a href="#[132]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_gyro_gain_update_config
+<BR>[Called By]<UL><LI><a href="#[142]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_gyro_user_gain_config
+<LI><a href="#[131]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_gyro_gain_update_config
 </UL>
 
-<P><STRONG><a name="[127]"></a>bmi2_get_feat_config</STRONG> (Thumb, 160 bytes, Stack size 40 bytes, bmi2.o(i.bmi2_get_feat_config))
+<P><STRONG><a name="[126]"></a>bmi2_get_feat_config</STRONG> (Thumb, 160 bytes, Stack size 40 bytes, bmi2.o(i.bmi2_get_feat_config))
 <BR><BR>[Stack]<UL><LI>Max Depth = 200<LI>Call Chain = bmi2_get_feat_config &rArr; bmi2_get_regs
 </UL>
 <BR>[Calls]<UL><LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_set_regs
-<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_regs
+<LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_regs
 </UL>
-<BR>[Called By]<UL><LI><a href="#[143]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_gyro_user_gain_config
-<LI><a href="#[12d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_gyro_gain_update_status
-<LI><a href="#[132]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_gyro_gain_update_config
-<LI><a href="#[12c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_gyro_cross_sense
+<BR>[Called By]<UL><LI><a href="#[142]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_gyro_user_gain_config
+<LI><a href="#[12c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_gyro_gain_update_status
+<LI><a href="#[131]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_gyro_gain_update_config
+<LI><a href="#[12b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_gyro_cross_sense
 </UL>
 
-<P><STRONG><a name="[129]"></a>bmi2_get_feature_data</STRONG> (Thumb, 132 bytes, Stack size 32 bytes, bmi2.o(i.bmi2_get_feature_data))
+<P><STRONG><a name="[128]"></a>bmi2_get_feature_data</STRONG> (Thumb, 132 bytes, Stack size 32 bytes, bmi2.o(i.bmi2_get_feature_data))
 <BR><BR>[Stack]<UL><LI>Max Depth = 272<LI>Call Chain = bmi2_get_feature_data &rArr; get_gyro_cross_sense &rArr; bmi2_get_feat_config &rArr; bmi2_get_regs
 </UL>
-<BR>[Calls]<UL><LI><a href="#[12b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_set_adv_power_save
-<LI><a href="#[12a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;null_ptr_check
-<LI><a href="#[12d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_gyro_gain_update_status
-<LI><a href="#[12c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_gyro_cross_sense
+<BR>[Calls]<UL><LI><a href="#[12a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_set_adv_power_save
+<LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;null_ptr_check
+<LI><a href="#[12c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_gyro_gain_update_status
+<LI><a href="#[12b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_gyro_cross_sense
 </UL>
-<BR>[Called By]<UL><LI><a href="#[11f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_gyro_cross_sense
+<BR>[Called By]<UL><LI><a href="#[11e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_gyro_cross_sense
 </UL>
 
-<P><STRONG><a name="[11f]"></a>bmi2_get_gyro_cross_sense</STRONG> (Thumb, 64 bytes, Stack size 24 bytes, bmi2.o(i.bmi2_get_gyro_cross_sense))
+<P><STRONG><a name="[11e]"></a>bmi2_get_gyro_cross_sense</STRONG> (Thumb, 64 bytes, Stack size 24 bytes, bmi2.o(i.bmi2_get_gyro_cross_sense))
 <BR><BR>[Stack]<UL><LI>Max Depth = 296<LI>Call Chain = bmi2_get_gyro_cross_sense &rArr; bmi2_get_feature_data &rArr; get_gyro_cross_sense &rArr; bmi2_get_feat_config &rArr; bmi2_get_regs
 </UL>
-<BR>[Calls]<UL><LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_feature_data
-<LI><a href="#[12a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;null_ptr_check
+<BR>[Calls]<UL><LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_feature_data
+<LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;null_ptr_check
 </UL>
 <BR>[Called By]<UL><LI><a href="#[e3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi270_init
 </UL>
 
-<P><STRONG><a name="[12e]"></a>bmi2_get_internal_status</STRONG> (Thumb, 48 bytes, Stack size 16 bytes, bmi2.o(i.bmi2_get_internal_status))
+<P><STRONG><a name="[12d]"></a>bmi2_get_internal_status</STRONG> (Thumb, 48 bytes, Stack size 16 bytes, bmi2.o(i.bmi2_get_internal_status))
 <BR><BR>[Stack]<UL><LI>Max Depth = 176<LI>Call Chain = bmi2_get_internal_status &rArr; bmi2_get_regs
 </UL>
-<BR>[Calls]<UL><LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_regs
-<LI><a href="#[12a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;null_ptr_check
+<BR>[Calls]<UL><LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_regs
+<LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;null_ptr_check
 </UL>
-<BR>[Called By]<UL><LI><a href="#[144]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_write_config_file
+<BR>[Called By]<UL><LI><a href="#[143]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_write_config_file
 </UL>
 
-<P><STRONG><a name="[128]"></a>bmi2_get_regs</STRONG> (Thumb, 126 bytes, Stack size 160 bytes, bmi2.o(i.bmi2_get_regs))
+<P><STRONG><a name="[127]"></a>bmi2_get_regs</STRONG> (Thumb, 126 bytes, Stack size 160 bytes, bmi2.o(i.bmi2_get_regs))
 <BR><BR>[Stack]<UL><LI>Max Depth = 160<LI>Call Chain = bmi2_get_regs
 </UL>
-<BR>[Calls]<UL><LI><a href="#[12a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;null_ptr_check
+<BR>[Calls]<UL><LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;null_ptr_check
 </UL>
-<BR>[Called By]<UL><LI><a href="#[13c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_soft_reset
-<LI><a href="#[12b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_set_adv_power_save
-<LI><a href="#[11e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_sec_init
+<BR>[Called By]<UL><LI><a href="#[13b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_soft_reset
+<LI><a href="#[12a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_set_adv_power_save
+<LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_sec_init
 <LI><a href="#[e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_map_data_int
-<LI><a href="#[135]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_status
-<LI><a href="#[133]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_sensor_data
+<LI><a href="#[134]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_status
+<LI><a href="#[132]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_sensor_data
 <LI><a href="#[e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_sensor_config
-<LI><a href="#[12e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_internal_status
-<LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_feat_config
-<LI><a href="#[159]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_config_load
-<LI><a href="#[142]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_aux_config
-<LI><a href="#[13f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sensor_enable
-<LI><a href="#[13e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sensor_disable
-<LI><a href="#[13b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;read_aux_data
-<LI><a href="#[12c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_gyro_cross_sense
-<LI><a href="#[130]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_gyro_config
-<LI><a href="#[131]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_aux_interface_config
-<LI><a href="#[12f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_accel_config
-<LI><a href="#[155]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;config_aux_interface
-<LI><a href="#[154]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;cfg_error_status
+<LI><a href="#[12d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_internal_status
+<LI><a href="#[126]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_feat_config
+<LI><a href="#[158]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_config_load
+<LI><a href="#[141]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_aux_config
+<LI><a href="#[13e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sensor_enable
+<LI><a href="#[13d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sensor_disable
+<LI><a href="#[13a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;read_aux_data
+<LI><a href="#[12b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_gyro_cross_sense
+<LI><a href="#[12f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_gyro_config
+<LI><a href="#[130]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_aux_interface_config
+<LI><a href="#[12e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_accel_config
+<LI><a href="#[154]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;config_aux_interface
+<LI><a href="#[153]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;cfg_error_status
 </UL>
 
 <P><STRONG><a name="[e5]"></a>bmi2_get_sensor_config</STRONG> (Thumb, 276 bytes, Stack size 48 bytes, bmi2.o(i.bmi2_get_sensor_config))
 <BR><BR>[Stack]<UL><LI>Max Depth = 288<LI>Call Chain = bmi2_get_sensor_config &rArr; get_gyro_gain_update_config &rArr; bmi2_get_feat_config &rArr; bmi2_get_regs
 </UL>
-<BR>[Calls]<UL><LI><a href="#[12b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_set_adv_power_save
-<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_regs
-<LI><a href="#[12a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;null_ptr_check
-<LI><a href="#[132]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_gyro_gain_update_config
-<LI><a href="#[130]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_gyro_config
-<LI><a href="#[131]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_aux_interface_config
-<LI><a href="#[12f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_accel_config
+<BR>[Calls]<UL><LI><a href="#[12a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_set_adv_power_save
+<LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_regs
+<LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;null_ptr_check
+<LI><a href="#[131]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_gyro_gain_update_config
+<LI><a href="#[12f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_gyro_config
+<LI><a href="#[130]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_aux_interface_config
+<LI><a href="#[12e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_accel_config
 </UL>
 <BR>[Called By]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IMU_INIT
 </UL>
 
-<P><STRONG><a name="[133]"></a>bmi2_get_sensor_data</STRONG> (Thumb, 46 bytes, Stack size 40 bytes, bmi2.o(i.bmi2_get_sensor_data))
+<P><STRONG><a name="[132]"></a>bmi2_get_sensor_data</STRONG> (Thumb, 46 bytes, Stack size 40 bytes, bmi2.o(i.bmi2_get_sensor_data))
 <BR><BR>[Stack]<UL><LI>Max Depth = 200<LI>Call Chain = bmi2_get_sensor_data &rArr; bmi2_get_regs
 </UL>
-<BR>[Calls]<UL><LI><a href="#[134]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_parse_sensor_data
-<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_regs
+<BR>[Calls]<UL><LI><a href="#[133]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_parse_sensor_data
+<LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_regs
 </UL>
 <BR>[Called By]<UL><LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_BmiGetRawData
 </UL>
 
-<P><STRONG><a name="[135]"></a>bmi2_get_status</STRONG> (Thumb, 38 bytes, Stack size 16 bytes, bmi2.o(i.bmi2_get_status))
+<P><STRONG><a name="[134]"></a>bmi2_get_status</STRONG> (Thumb, 38 bytes, Stack size 16 bytes, bmi2.o(i.bmi2_get_status))
 <BR><BR>[Stack]<UL><LI>Max Depth = 176<LI>Call Chain = bmi2_get_status &rArr; bmi2_get_regs
 </UL>
-<BR>[Calls]<UL><LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_regs
-<LI><a href="#[12a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;null_ptr_check
+<BR>[Calls]<UL><LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_regs
+<LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;null_ptr_check
 </UL>
-<BR>[Called By]<UL><LI><a href="#[145]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_if_aux_not_busy
-<LI><a href="#[155]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;config_aux_interface
+<BR>[Called By]<UL><LI><a href="#[144]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_if_aux_not_busy
+<LI><a href="#[154]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;config_aux_interface
 </UL>
 
 <P><STRONG><a name="[64]"></a>bmi2_i2c_read</STRONG> (Thumb, 32 bytes, Stack size 16 bytes, common.o(i.bmi2_i2c_read))
@@ -1917,10 +1914,10 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_WritePin
 <LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_Init
-<LI><a href="#[136]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_ms
-<LI><a href="#[137]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI1_SetSpeed
+<LI><a href="#[136]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI1_SetSpeed
 <LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI1_Init
 <LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_Init
+<LI><a href="#[135]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_ms
 </UL>
 <BR>[Called By]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IMU_INIT
 </UL>
@@ -1929,48 +1926,48 @@ Global Symbols
 <BR><BR>[Stack]<UL><LI>Max Depth = 184<LI>Call Chain = bmi2_map_data_int &rArr; bmi2_get_regs
 </UL>
 <BR>[Calls]<UL><LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_set_regs
-<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_regs
+<LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_regs
 </UL>
 <BR>[Called By]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IMU_INIT
 </UL>
 
-<P><STRONG><a name="[134]"></a>bmi2_parse_sensor_data</STRONG> (Thumb, 126 bytes, Stack size 24 bytes, bmi2.o(i.bmi2_parse_sensor_data))
+<P><STRONG><a name="[133]"></a>bmi2_parse_sensor_data</STRONG> (Thumb, 126 bytes, Stack size 24 bytes, bmi2.o(i.bmi2_parse_sensor_data))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = bmi2_parse_sensor_data &rArr; get_remapped_data
 </UL>
-<BR>[Calls]<UL><LI><a href="#[12a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;null_ptr_check
-<LI><a href="#[139]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_remapped_data
-<LI><a href="#[138]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_acc_gyr_data
-<LI><a href="#[13a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;comp_gyro_cross_axis_sensitivity
+<BR>[Calls]<UL><LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;null_ptr_check
+<LI><a href="#[138]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_remapped_data
+<LI><a href="#[137]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_acc_gyr_data
+<LI><a href="#[139]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;comp_gyro_cross_axis_sensitivity
 </UL>
-<BR>[Called By]<UL><LI><a href="#[133]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_sensor_data
+<BR>[Called By]<UL><LI><a href="#[132]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_sensor_data
 </UL>
 
-<P><STRONG><a name="[125]"></a>bmi2_read_aux_man_mode</STRONG> (Thumb, 124 bytes, Stack size 32 bytes, bmi2.o(i.bmi2_read_aux_man_mode))
+<P><STRONG><a name="[124]"></a>bmi2_read_aux_man_mode</STRONG> (Thumb, 124 bytes, Stack size 32 bytes, bmi2.o(i.bmi2_read_aux_man_mode))
 <BR><BR>[Stack]<UL><LI>Max Depth = 304<LI>Call Chain = bmi2_read_aux_man_mode &rArr; read_aux_data &rArr; set_if_aux_not_busy &rArr; bmi2_get_status &rArr; bmi2_get_regs
 </UL>
-<BR>[Calls]<UL><LI><a href="#[12b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_set_adv_power_save
-<LI><a href="#[13b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;read_aux_data
-<LI><a href="#[12a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;null_ptr_check
+<BR>[Calls]<UL><LI><a href="#[12a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_set_adv_power_save
+<LI><a href="#[13a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;read_aux_data
+<LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;null_ptr_check
 </UL>
 <BR>[Called By]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_aux_i2c_read
 </UL>
 
-<P><STRONG><a name="[11e]"></a>bmi2_sec_init</STRONG> (Thumb, 114 bytes, Stack size 24 bytes, bmi2.o(i.bmi2_sec_init))
+<P><STRONG><a name="[11d]"></a>bmi2_sec_init</STRONG> (Thumb, 114 bytes, Stack size 24 bytes, bmi2.o(i.bmi2_sec_init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 264<LI>Call Chain = bmi2_sec_init &rArr; bmi2_soft_reset &rArr; bmi2_write_config_file &rArr; write_config_file &rArr; bmi2_set_adv_power_save &rArr; bmi2_get_regs
 </UL>
-<BR>[Calls]<UL><LI><a href="#[13c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_soft_reset
-<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_regs
-<LI><a href="#[12a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;null_ptr_check
+<BR>[Calls]<UL><LI><a href="#[13b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_soft_reset
+<LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_regs
+<LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;null_ptr_check
 </UL>
 <BR>[Called By]<UL><LI><a href="#[e3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi270_init
 </UL>
 
-<P><STRONG><a name="[124]"></a>bmi2_sensor_disable</STRONG> (Thumb, 56 bytes, Stack size 24 bytes, bmi2.o(i.bmi2_sensor_disable))
+<P><STRONG><a name="[123]"></a>bmi2_sensor_disable</STRONG> (Thumb, 56 bytes, Stack size 24 bytes, bmi2.o(i.bmi2_sensor_disable))
 <BR><BR>[Stack]<UL><LI>Max Depth = 208<LI>Call Chain = bmi2_sensor_disable &rArr; sensor_disable &rArr; bmi2_get_regs
 </UL>
-<BR>[Calls]<UL><LI><a href="#[13e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sensor_disable
-<LI><a href="#[13d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;select_sensor
-<LI><a href="#[12a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;null_ptr_check
+<BR>[Calls]<UL><LI><a href="#[13d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sensor_disable
+<LI><a href="#[13c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;select_sensor
+<LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;null_ptr_check
 </UL>
 <BR>[Called By]<UL><LI><a href="#[e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_aux_conf
 </UL>
@@ -1978,74 +1975,74 @@ Global Symbols
 <P><STRONG><a name="[e8]"></a>bmi2_sensor_enable</STRONG> (Thumb, 56 bytes, Stack size 24 bytes, bmi2.o(i.bmi2_sensor_enable))
 <BR><BR>[Stack]<UL><LI>Max Depth = 208<LI>Call Chain = bmi2_sensor_enable &rArr; sensor_enable &rArr; bmi2_get_regs
 </UL>
-<BR>[Calls]<UL><LI><a href="#[13f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sensor_enable
-<LI><a href="#[13d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;select_sensor
-<LI><a href="#[12a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;null_ptr_check
+<BR>[Calls]<UL><LI><a href="#[13e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sensor_enable
+<LI><a href="#[13c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;select_sensor
+<LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;null_ptr_check
 </UL>
 <BR>[Called By]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IMU_INIT
 </UL>
 
-<P><STRONG><a name="[12b]"></a>bmi2_set_adv_power_save</STRONG> (Thumb, 84 bytes, Stack size 16 bytes, bmi2.o(i.bmi2_set_adv_power_save))
+<P><STRONG><a name="[12a]"></a>bmi2_set_adv_power_save</STRONG> (Thumb, 84 bytes, Stack size 16 bytes, bmi2.o(i.bmi2_set_adv_power_save))
 <BR><BR>[Stack]<UL><LI>Max Depth = 176<LI>Call Chain = bmi2_set_adv_power_save &rArr; bmi2_get_regs
 </UL>
 <BR>[Calls]<UL><LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_set_regs
-<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_regs
-<LI><a href="#[12a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;null_ptr_check
+<LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_regs
+<LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;null_ptr_check
 </UL>
-<BR>[Called By]<UL><LI><a href="#[126]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_write_aux_man_mode
+<BR>[Called By]<UL><LI><a href="#[125]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_write_aux_man_mode
 <LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_set_sensor_config
-<LI><a href="#[125]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_read_aux_man_mode
+<LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_read_aux_man_mode
 <LI><a href="#[e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_sensor_config
-<LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_feature_data
-<LI><a href="#[146]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;write_config_file
+<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_feature_data
+<LI><a href="#[145]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;write_config_file
 </UL>
 
 <P><STRONG><a name="[e4]"></a>bmi2_set_regs</STRONG> (Thumb, 156 bytes, Stack size 32 bytes, bmi2.o(i.bmi2_set_regs))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = bmi2_set_regs
 </UL>
-<BR>[Calls]<UL><LI><a href="#[12a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;null_ptr_check
+<BR>[Calls]<UL><LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;null_ptr_check
 </UL>
-<BR>[Called By]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IMU_INIT
-<LI><a href="#[126]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_write_aux_man_mode
-<LI><a href="#[13c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_soft_reset
-<LI><a href="#[12b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_set_adv_power_save
+<BR>[Called By]<UL><LI><a href="#[125]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_write_aux_man_mode
+<LI><a href="#[13b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_soft_reset
+<LI><a href="#[12a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_set_adv_power_save
 <LI><a href="#[e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_map_data_int
-<LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_feat_config
-<LI><a href="#[15e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;upload_file
-<LI><a href="#[145]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_if_aux_not_busy
-<LI><a href="#[143]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_gyro_user_gain_config
-<LI><a href="#[141]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_gyro_config
-<LI><a href="#[159]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_config_load
-<LI><a href="#[142]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_aux_config
-<LI><a href="#[140]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_accel_config
-<LI><a href="#[13f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sensor_enable
-<LI><a href="#[13e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sensor_disable
-<LI><a href="#[155]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;config_aux_interface
+<LI><a href="#[126]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_feat_config
+<LI><a href="#[15d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;upload_file
+<LI><a href="#[144]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_if_aux_not_busy
+<LI><a href="#[142]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_gyro_user_gain_config
+<LI><a href="#[140]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_gyro_config
+<LI><a href="#[158]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_config_load
+<LI><a href="#[141]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_aux_config
+<LI><a href="#[13f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_accel_config
+<LI><a href="#[13e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sensor_enable
+<LI><a href="#[13d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sensor_disable
+<LI><a href="#[154]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;config_aux_interface
+<LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IMU_INIT
 </UL>
 
 <P><STRONG><a name="[e6]"></a>bmi2_set_sensor_config</STRONG> (Thumb, 166 bytes, Stack size 24 bytes, bmi2.o(i.bmi2_set_sensor_config))
 <BR><BR>[Stack]<UL><LI>Max Depth = 264<LI>Call Chain = bmi2_set_sensor_config &rArr; set_gyro_user_gain_config &rArr; bmi2_get_feat_config &rArr; bmi2_get_regs
 </UL>
-<BR>[Calls]<UL><LI><a href="#[12b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_set_adv_power_save
-<LI><a href="#[143]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_gyro_user_gain_config
-<LI><a href="#[141]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_gyro_config
-<LI><a href="#[142]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_aux_config
-<LI><a href="#[140]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_accel_config
-<LI><a href="#[12a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;null_ptr_check
+<BR>[Calls]<UL><LI><a href="#[12a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_set_adv_power_save
+<LI><a href="#[142]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_gyro_user_gain_config
+<LI><a href="#[140]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_gyro_config
+<LI><a href="#[141]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_aux_config
+<LI><a href="#[13f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_accel_config
+<LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;null_ptr_check
 </UL>
-<BR>[Called By]<UL><LI><a href="#[e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_aux_conf
-<LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IMU_INIT
+<BR>[Called By]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IMU_INIT
+<LI><a href="#[e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_aux_conf
 </UL>
 
-<P><STRONG><a name="[13c]"></a>bmi2_soft_reset</STRONG> (Thumb, 96 bytes, Stack size 24 bytes, bmi2.o(i.bmi2_soft_reset))
+<P><STRONG><a name="[13b]"></a>bmi2_soft_reset</STRONG> (Thumb, 96 bytes, Stack size 24 bytes, bmi2.o(i.bmi2_soft_reset))
 <BR><BR>[Stack]<UL><LI>Max Depth = 240<LI>Call Chain = bmi2_soft_reset &rArr; bmi2_write_config_file &rArr; write_config_file &rArr; bmi2_set_adv_power_save &rArr; bmi2_get_regs
 </UL>
-<BR>[Calls]<UL><LI><a href="#[144]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_write_config_file
+<BR>[Calls]<UL><LI><a href="#[143]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_write_config_file
 <LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_set_regs
-<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_regs
-<LI><a href="#[12a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;null_ptr_check
+<LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_regs
+<LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;null_ptr_check
 </UL>
-<BR>[Called By]<UL><LI><a href="#[11e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_sec_init
+<BR>[Called By]<UL><LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_sec_init
 </UL>
 
 <P><STRONG><a name="[66]"></a>bmi2_spi_read</STRONG> (Thumb, 64 bytes, Stack size 24 bytes, common.o(i.bmi2_spi_read))
@@ -2064,34 +2061,34 @@ Global Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> common.o(i.bmi2_interface_init)
 </UL>
-<P><STRONG><a name="[126]"></a>bmi2_write_aux_man_mode</STRONG> (Thumb, 158 bytes, Stack size 40 bytes, bmi2.o(i.bmi2_write_aux_man_mode))
+<P><STRONG><a name="[125]"></a>bmi2_write_aux_man_mode</STRONG> (Thumb, 158 bytes, Stack size 40 bytes, bmi2.o(i.bmi2_write_aux_man_mode))
 <BR><BR>[Stack]<UL><LI>Max Depth = 256<LI>Call Chain = bmi2_write_aux_man_mode &rArr; set_if_aux_not_busy &rArr; bmi2_get_status &rArr; bmi2_get_regs
 </UL>
 <BR>[Calls]<UL><LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_set_regs
-<LI><a href="#[12b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_set_adv_power_save
-<LI><a href="#[145]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_if_aux_not_busy
-<LI><a href="#[12a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;null_ptr_check
+<LI><a href="#[12a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_set_adv_power_save
+<LI><a href="#[144]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_if_aux_not_busy
+<LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;null_ptr_check
 </UL>
 <BR>[Called By]<UL><LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_aux_i2c_write
 </UL>
 
-<P><STRONG><a name="[144]"></a>bmi2_write_config_file</STRONG> (Thumb, 96 bytes, Stack size 16 bytes, bmi2.o(i.bmi2_write_config_file))
+<P><STRONG><a name="[143]"></a>bmi2_write_config_file</STRONG> (Thumb, 96 bytes, Stack size 16 bytes, bmi2.o(i.bmi2_write_config_file))
 <BR><BR>[Stack]<UL><LI>Max Depth = 216<LI>Call Chain = bmi2_write_config_file &rArr; write_config_file &rArr; bmi2_set_adv_power_save &rArr; bmi2_get_regs
 </UL>
-<BR>[Calls]<UL><LI><a href="#[12e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_internal_status
-<LI><a href="#[146]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;write_config_file
-<LI><a href="#[12a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;null_ptr_check
+<BR>[Calls]<UL><LI><a href="#[12d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_internal_status
+<LI><a href="#[145]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;write_config_file
+<LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;null_ptr_check
 </UL>
-<BR>[Called By]<UL><LI><a href="#[13c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_soft_reset
+<BR>[Called By]<UL><LI><a href="#[13b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_soft_reset
 </UL>
 
 <P><STRONG><a name="[ec]"></a>bmm150_aux_mag_data</STRONG> (Thumb, 118 bytes, Stack size 32 bytes, bmm150.o(i.bmm150_aux_mag_data))
 <BR><BR>[Stack]<UL><LI>Max Depth = 52<LI>Call Chain = bmm150_aux_mag_data &rArr; compensate_z
 </UL>
-<BR>[Calls]<UL><LI><a href="#[147]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;null_ptr_check
-<LI><a href="#[14a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;compensate_z
-<LI><a href="#[149]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;compensate_y
-<LI><a href="#[148]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;compensate_x
+<BR>[Calls]<UL><LI><a href="#[146]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;null_ptr_check
+<LI><a href="#[149]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;compensate_z
+<LI><a href="#[148]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;compensate_y
+<LI><a href="#[147]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;compensate_x
 </UL>
 <BR>[Called By]<UL><LI><a href="#[c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IMU_Update
 </UL>
@@ -2099,73 +2096,73 @@ Global Symbols
 <P><STRONG><a name="[ed]"></a>bmm150_error_codes_print_result</STRONG> (Thumb, 98 bytes, Stack size 8 bytes, imu_bsp.o(i.bmm150_error_codes_print_result))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = bmm150_error_codes_print_result &rArr; __2printf
 </UL>
-<BR>[Calls]<UL><LI><a href="#[120]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
+<BR>[Calls]<UL><LI><a href="#[11f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
 </UL>
-<BR>[Called By]<UL><LI><a href="#[e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_aux_conf
-<LI><a href="#[c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IMU_Update
+<BR>[Called By]<UL><LI><a href="#[c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IMU_Update
+<LI><a href="#[e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_aux_conf
 </UL>
 
-<P><STRONG><a name="[14b]"></a>bmm150_get_regs</STRONG> (Thumb, 62 bytes, Stack size 24 bytes, bmm150.o(i.bmm150_get_regs))
+<P><STRONG><a name="[14a]"></a>bmm150_get_regs</STRONG> (Thumb, 62 bytes, Stack size 24 bytes, bmm150.o(i.bmm150_get_regs))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = bmm150_get_regs
 </UL>
-<BR>[Calls]<UL><LI><a href="#[147]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;null_ptr_check
+<BR>[Calls]<UL><LI><a href="#[146]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;null_ptr_check
 </UL>
-<BR>[Called By]<UL><LI><a href="#[121]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmm150_init
-<LI><a href="#[14f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;write_op_mode
-<LI><a href="#[14c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_power_control_bit
-<LI><a href="#[15a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_odr
-<LI><a href="#[14d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;read_trim_registers
+<BR>[Called By]<UL><LI><a href="#[120]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmm150_init
+<LI><a href="#[14e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;write_op_mode
+<LI><a href="#[14b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_power_control_bit
+<LI><a href="#[159]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_odr
+<LI><a href="#[14c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;read_trim_registers
 </UL>
 
-<P><STRONG><a name="[121]"></a>bmm150_init</STRONG> (Thumb, 66 bytes, Stack size 16 bytes, bmm150.o(i.bmm150_init))
+<P><STRONG><a name="[120]"></a>bmm150_init</STRONG> (Thumb, 66 bytes, Stack size 16 bytes, bmm150.o(i.bmm150_init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = bmm150_init &rArr; read_trim_registers &rArr; bmm150_get_regs
 </UL>
-<BR>[Calls]<UL><LI><a href="#[14b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmm150_get_regs
-<LI><a href="#[14c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_power_control_bit
-<LI><a href="#[14d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;read_trim_registers
+<BR>[Calls]<UL><LI><a href="#[14a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmm150_get_regs
+<LI><a href="#[14b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_power_control_bit
+<LI><a href="#[14c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;read_trim_registers
 </UL>
 <BR>[Called By]<UL><LI><a href="#[e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_aux_conf
 </UL>
 
-<P><STRONG><a name="[123]"></a>bmm150_set_op_mode</STRONG> (Thumb, 70 bytes, Stack size 16 bytes, bmm150.o(i.bmm150_set_op_mode))
+<P><STRONG><a name="[122]"></a>bmm150_set_op_mode</STRONG> (Thumb, 70 bytes, Stack size 16 bytes, bmm150.o(i.bmm150_set_op_mode))
 <BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = bmm150_set_op_mode &rArr; suspend_to_sleep_mode &rArr; set_power_control_bit &rArr; bmm150_set_regs
 </UL>
-<BR>[Calls]<UL><LI><a href="#[14f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;write_op_mode
-<LI><a href="#[14e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;suspend_to_sleep_mode
-<LI><a href="#[14c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_power_control_bit
-<LI><a href="#[147]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;null_ptr_check
+<BR>[Calls]<UL><LI><a href="#[14e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;write_op_mode
+<LI><a href="#[14d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;suspend_to_sleep_mode
+<LI><a href="#[14b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_power_control_bit
+<LI><a href="#[146]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;null_ptr_check
 </UL>
 <BR>[Called By]<UL><LI><a href="#[e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_aux_conf
 </UL>
 
-<P><STRONG><a name="[122]"></a>bmm150_set_presetmode</STRONG> (Thumb, 90 bytes, Stack size 16 bytes, bmm150.o(i.bmm150_set_presetmode))
+<P><STRONG><a name="[121]"></a>bmm150_set_presetmode</STRONG> (Thumb, 90 bytes, Stack size 16 bytes, bmm150.o(i.bmm150_set_presetmode))
 <BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = bmm150_set_presetmode &rArr; set_odr_xyz_rep &rArr; set_odr &rArr; bmm150_set_regs
 </UL>
-<BR>[Calls]<UL><LI><a href="#[150]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_odr_xyz_rep
-<LI><a href="#[147]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;null_ptr_check
+<BR>[Calls]<UL><LI><a href="#[14f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_odr_xyz_rep
+<LI><a href="#[146]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;null_ptr_check
 </UL>
 <BR>[Called By]<UL><LI><a href="#[e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_aux_conf
 </UL>
 
-<P><STRONG><a name="[151]"></a>bmm150_set_regs</STRONG> (Thumb, 54 bytes, Stack size 24 bytes, bmm150.o(i.bmm150_set_regs))
+<P><STRONG><a name="[150]"></a>bmm150_set_regs</STRONG> (Thumb, 54 bytes, Stack size 24 bytes, bmm150.o(i.bmm150_set_regs))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = bmm150_set_regs
 </UL>
-<BR>[Calls]<UL><LI><a href="#[147]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;null_ptr_check
+<BR>[Calls]<UL><LI><a href="#[146]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;null_ptr_check
 </UL>
-<BR>[Called By]<UL><LI><a href="#[14f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;write_op_mode
-<LI><a href="#[15c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_z_rep
-<LI><a href="#[15b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_xy_rep
-<LI><a href="#[14c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_power_control_bit
-<LI><a href="#[15a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_odr
+<BR>[Called By]<UL><LI><a href="#[14e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;write_op_mode
+<LI><a href="#[15b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_z_rep
+<LI><a href="#[15a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_xy_rep
+<LI><a href="#[14b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_power_control_bit
+<LI><a href="#[159]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_odr
 </UL>
 
 <P><STRONG><a name="[f0]"></a>bsp_BmiGetRawData</STRONG> (Thumb, 214 bytes, Stack size 32 bytes, imu_bsp.o(i.bsp_BmiGetRawData))
 <BR><BR>[Stack]<UL><LI>Max Depth = 360<LI>Call Chain = bsp_BmiGetRawData &rArr; lsb_to_mg &rArr; __hardfp_pow &rArr; __kernel_poly &rArr; __aeabi_dmul &rArr; _double_epilogue &rArr; _double_round
 </UL>
-<BR>[Calls]<UL><LI><a href="#[152]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lsb_to_mg
-<LI><a href="#[153]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lsb_to_dps
+<BR>[Calls]<UL><LI><a href="#[132]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_sensor_data
+<LI><a href="#[151]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lsb_to_mg
+<LI><a href="#[152]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lsb_to_dps
 <LI><a href="#[e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_error_codes_print_result
-<LI><a href="#[133]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_sensor_data
 </UL>
 <BR>[Called By]<UL><LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IMU_getValues
 </UL>
@@ -2185,7 +2182,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IMU_getValues
 </UL>
 
-<P><STRONG><a name="[136]"></a>delay_ms</STRONG> (Thumb, 22 bytes, Stack size 12 bytes, delay.o(i.delay_ms))
+<P><STRONG><a name="[135]"></a>delay_ms</STRONG> (Thumb, 22 bytes, Stack size 12 bytes, delay.o(i.delay_ms))
 <BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = delay_ms &rArr; delay_us
 </UL>
 <BR>[Calls]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_us
@@ -2196,25 +2193,25 @@ Global Symbols
 <P><STRONG><a name="[d2]"></a>delay_us</STRONG> (Thumb, 40 bytes, Stack size 8 bytes, delay.o(i.delay_us))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = delay_us
 </UL>
-<BR>[Called By]<UL><LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_aux_delay_us
-<LI><a href="#[68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_delay_us
-<LI><a href="#[136]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_ms
-<LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_Wait_Ack
+<BR>[Called By]<UL><LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_Wait_Ack
 <LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_Stop
 <LI><a href="#[d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_Start
 <LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_Send_Byte
 <LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_Read_Byte
 <LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_NAck
 <LI><a href="#[cf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_Ack
+<LI><a href="#[135]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_ms
+<LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_aux_delay_us
+<LI><a href="#[68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_delay_us
 </UL>
 
-<P><STRONG><a name="[111]"></a>fabs</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, fabs.o(i.fabs))
+<P><STRONG><a name="[110]"></a>fabs</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, fabs.o(i.fabs))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = fabs
 </UL>
-<BR>[Called By]<UL><LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_pow
+<BR>[Called By]<UL><LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_pow
 <LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_atan2
 <LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_asin
-<LI><a href="#[113]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_atan
+<LI><a href="#[112]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_atan
 </UL>
 
 <P><STRONG><a name="[60]"></a>fputc</STRONG> (Thumb, 20 bytes, Stack size 16 bytes, main.o(i.fputc))
@@ -2231,7 +2228,7 @@ Global Symbols
 <P><STRONG><a name="[5c]"></a>main</STRONG> (Thumb, 74 bytes, Stack size 0 bytes, main.o(i.main))
 <BR><BR>[Stack]<UL><LI>Max Depth = 520<LI>Call Chain = main &rArr; ALL_Init &rArr; IMU_INIT &rArr; bmi2_aux_conf &rArr; bmi2_set_sensor_config &rArr; set_gyro_user_gain_config &rArr; bmi2_get_feat_config &rArr; bmi2_get_regs
 </UL>
-<BR>[Calls]<UL><LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Test2
+<BR>[Calls]<UL><LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Test3
 <LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_USART2_UART_Init
 <LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_TIM7_Init
 <LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_TIM6_Init
@@ -2246,32 +2243,32 @@ Global Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> entry9a.o(.ARM.Collect$$$$0000000B)
 </UL>
-<P><STRONG><a name="[112]"></a>sqrt</STRONG> (Thumb, 110 bytes, Stack size 32 bytes, sqrt.o(i.sqrt))
+<P><STRONG><a name="[111]"></a>sqrt</STRONG> (Thumb, 110 bytes, Stack size 32 bytes, sqrt.o(i.sqrt))
 <BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = sqrt &rArr; _dsqrt &rArr; _double_round
 </UL>
-<BR>[Calls]<UL><LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__set_errno
+<BR>[Calls]<UL><LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__set_errno
 <LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_dsqrt
 </UL>
-<BR>[Called By]<UL><LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_pow
+<BR>[Called By]<UL><LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_pow
 <LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_asin
 </UL>
 
 <P><STRONG><a name="[83]"></a>timer_Init</STRONG> (Thumb, 18 bytes, Stack size 8 bytes, timer.o(i.timer_Init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = timer_Init
 </UL>
-<BR>[Calls]<UL><LI><a href="#[15d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_TIM_Base_Start_IT
+<BR>[Calls]<UL><LI><a href="#[15c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_TIM_Base_Start_IT
 </UL>
 <BR>[Called By]<UL><LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ALL_Init
 </UL>
 
-<P><STRONG><a name="[106]"></a>xunji_1</STRONG> (Thumb, 314 bytes, Stack size 64 bytes, motor.o(i.xunji_1))
+<P><STRONG><a name="[105]"></a>xunji_1</STRONG> (Thumb, 314 bytes, Stack size 64 bytes, motor.o(i.xunji_1))
 <BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = xunji_1 &rArr; SET_Motor_PWM
 </UL>
 <BR>[Calls]<UL><LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_ReadPin
 <LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PID_location
 <LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SET_Motor_PWM
 </UL>
-<BR>[Called By]<UL><LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Test2
+<BR>[Called By]<UL><LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Test3
 </UL>
 <P>
 <H3>
@@ -2350,7 +2347,7 @@ Local Symbols
 <P><STRONG><a name="[c4]"></a>UART_Receive_IT</STRONG> (Thumb, 194 bytes, Stack size 8 bytes, stm32f4xx_hal_uart.o(i.UART_Receive_IT))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = UART_Receive_IT
 </UL>
-<BR>[Calls]<UL><LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_RxCpltCallback
+<BR>[Calls]<UL><LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_RxCpltCallback
 <LI><a href="#[c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UARTEx_RxEventCallback
 </UL>
 <BR>[Called By]<UL><LI><a href="#[c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_IRQHandler
@@ -2359,7 +2356,7 @@ Local Symbols
 <P><STRONG><a name="[cc]"></a>UART_SetConfig</STRONG> (Thumb, 258 bytes, Stack size 16 bytes, stm32f4xx_hal_uart.o(i.UART_SetConfig))
 <BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = UART_SetConfig &rArr; __aeabi_uldivmod
 </UL>
-<BR>[Calls]<UL><LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_GetPCLK2Freq
+<BR>[Calls]<UL><LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_GetPCLK2Freq
 <LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_GetPCLK1Freq
 <LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uldivmod
 </UL>
@@ -2393,245 +2390,245 @@ Local Symbols
 <LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Encoder_EXTI_Callback
 </UL>
 
-<P><STRONG><a name="[154]"></a>cfg_error_status</STRONG> (Thumb, 62 bytes, Stack size 8 bytes, bmi2.o(i.cfg_error_status))
+<P><STRONG><a name="[153]"></a>cfg_error_status</STRONG> (Thumb, 62 bytes, Stack size 8 bytes, bmi2.o(i.cfg_error_status))
 <BR><BR>[Stack]<UL><LI>Max Depth = 168<LI>Call Chain = cfg_error_status &rArr; bmi2_get_regs
 </UL>
-<BR>[Calls]<UL><LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_regs
+<BR>[Calls]<UL><LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_regs
 </UL>
-<BR>[Called By]<UL><LI><a href="#[141]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_gyro_config
-<LI><a href="#[140]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_accel_config
+<BR>[Called By]<UL><LI><a href="#[140]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_gyro_config
+<LI><a href="#[13f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_accel_config
 </UL>
 
-<P><STRONG><a name="[158]"></a>check_boundary_val</STRONG> (Thumb, 48 bytes, Stack size 12 bytes, bmi2.o(i.check_boundary_val))
+<P><STRONG><a name="[157]"></a>check_boundary_val</STRONG> (Thumb, 48 bytes, Stack size 12 bytes, bmi2.o(i.check_boundary_val))
 <BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = check_boundary_val
 </UL>
-<BR>[Called By]<UL><LI><a href="#[141]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_gyro_config
-<LI><a href="#[142]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_aux_config
-<LI><a href="#[140]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_accel_config
+<BR>[Called By]<UL><LI><a href="#[140]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_gyro_config
+<LI><a href="#[141]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_aux_config
+<LI><a href="#[13f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_accel_config
 </UL>
 
-<P><STRONG><a name="[13a]"></a>comp_gyro_cross_axis_sensitivity</STRONG> (Thumb, 50 bytes, Stack size 8 bytes, bmi2.o(i.comp_gyro_cross_axis_sensitivity))
+<P><STRONG><a name="[139]"></a>comp_gyro_cross_axis_sensitivity</STRONG> (Thumb, 50 bytes, Stack size 8 bytes, bmi2.o(i.comp_gyro_cross_axis_sensitivity))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = comp_gyro_cross_axis_sensitivity
 </UL>
-<BR>[Called By]<UL><LI><a href="#[134]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_parse_sensor_data
+<BR>[Called By]<UL><LI><a href="#[133]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_parse_sensor_data
 </UL>
 
-<P><STRONG><a name="[155]"></a>config_aux_interface</STRONG> (Thumb, 220 bytes, Stack size 32 bytes, bmi2.o(i.config_aux_interface))
+<P><STRONG><a name="[154]"></a>config_aux_interface</STRONG> (Thumb, 220 bytes, Stack size 32 bytes, bmi2.o(i.config_aux_interface))
 <BR><BR>[Stack]<UL><LI>Max Depth = 208<LI>Call Chain = config_aux_interface &rArr; bmi2_get_status &rArr; bmi2_get_regs
 </UL>
 <BR>[Calls]<UL><LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_set_regs
-<LI><a href="#[135]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_status
-<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_regs
+<LI><a href="#[134]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_status
+<LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_regs
 </UL>
-<BR>[Called By]<UL><LI><a href="#[142]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_aux_config
+<BR>[Called By]<UL><LI><a href="#[141]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_aux_config
 </UL>
 
-<P><STRONG><a name="[156]"></a>extract_output_feat_config</STRONG> (Thumb, 54 bytes, Stack size 20 bytes, bmi2.o(i.extract_output_feat_config))
+<P><STRONG><a name="[155]"></a>extract_output_feat_config</STRONG> (Thumb, 54 bytes, Stack size 20 bytes, bmi2.o(i.extract_output_feat_config))
 <BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = extract_output_feat_config
 </UL>
-<BR>[Called By]<UL><LI><a href="#[12d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_gyro_gain_update_status
-<LI><a href="#[12c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_gyro_cross_sense
+<BR>[Called By]<UL><LI><a href="#[12c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_gyro_gain_update_status
+<LI><a href="#[12b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_gyro_cross_sense
 </UL>
 
-<P><STRONG><a name="[138]"></a>get_acc_gyr_data</STRONG> (Thumb, 32 bytes, Stack size 0 bytes, bmi2.o(i.get_acc_gyr_data))
-<BR><BR>[Called By]<UL><LI><a href="#[134]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_parse_sensor_data
+<P><STRONG><a name="[137]"></a>get_acc_gyr_data</STRONG> (Thumb, 32 bytes, Stack size 0 bytes, bmi2.o(i.get_acc_gyr_data))
+<BR><BR>[Called By]<UL><LI><a href="#[133]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_parse_sensor_data
 </UL>
 
-<P><STRONG><a name="[12f]"></a>get_accel_config</STRONG> (Thumb, 78 bytes, Stack size 16 bytes, bmi2.o(i.get_accel_config))
+<P><STRONG><a name="[12e]"></a>get_accel_config</STRONG> (Thumb, 78 bytes, Stack size 16 bytes, bmi2.o(i.get_accel_config))
 <BR><BR>[Stack]<UL><LI>Max Depth = 176<LI>Call Chain = get_accel_config &rArr; bmi2_get_regs
 </UL>
-<BR>[Calls]<UL><LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_regs
-<LI><a href="#[12a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;null_ptr_check
+<BR>[Calls]<UL><LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_regs
+<LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;null_ptr_check
 </UL>
 <BR>[Called By]<UL><LI><a href="#[e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_sensor_config
 </UL>
 
-<P><STRONG><a name="[131]"></a>get_aux_interface_config</STRONG> (Thumb, 90 bytes, Stack size 16 bytes, bmi2.o(i.get_aux_interface_config))
+<P><STRONG><a name="[130]"></a>get_aux_interface_config</STRONG> (Thumb, 90 bytes, Stack size 16 bytes, bmi2.o(i.get_aux_interface_config))
 <BR><BR>[Stack]<UL><LI>Max Depth = 176<LI>Call Chain = get_aux_interface_config &rArr; bmi2_get_regs
 </UL>
-<BR>[Calls]<UL><LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_regs
+<BR>[Calls]<UL><LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_regs
 </UL>
 <BR>[Called By]<UL><LI><a href="#[e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_sensor_config
 </UL>
 
-<P><STRONG><a name="[130]"></a>get_gyro_config</STRONG> (Thumb, 94 bytes, Stack size 16 bytes, bmi2.o(i.get_gyro_config))
+<P><STRONG><a name="[12f]"></a>get_gyro_config</STRONG> (Thumb, 94 bytes, Stack size 16 bytes, bmi2.o(i.get_gyro_config))
 <BR><BR>[Stack]<UL><LI>Max Depth = 176<LI>Call Chain = get_gyro_config &rArr; bmi2_get_regs
 </UL>
-<BR>[Calls]<UL><LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_regs
-<LI><a href="#[12a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;null_ptr_check
+<BR>[Calls]<UL><LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_regs
+<LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;null_ptr_check
 </UL>
 <BR>[Called By]<UL><LI><a href="#[e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_sensor_config
 </UL>
 
-<P><STRONG><a name="[12c]"></a>get_gyro_cross_sense</STRONG> (Thumb, 114 bytes, Stack size 40 bytes, bmi2.o(i.get_gyro_cross_sense))
+<P><STRONG><a name="[12b]"></a>get_gyro_cross_sense</STRONG> (Thumb, 114 bytes, Stack size 40 bytes, bmi2.o(i.get_gyro_cross_sense))
 <BR><BR>[Stack]<UL><LI>Max Depth = 240<LI>Call Chain = get_gyro_cross_sense &rArr; bmi2_get_feat_config &rArr; bmi2_get_regs
 </UL>
-<BR>[Calls]<UL><LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_regs
-<LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_feat_config
-<LI><a href="#[156]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;extract_output_feat_config
+<BR>[Calls]<UL><LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_regs
+<LI><a href="#[126]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_feat_config
+<LI><a href="#[155]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;extract_output_feat_config
 </UL>
-<BR>[Called By]<UL><LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_feature_data
+<BR>[Called By]<UL><LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_feature_data
 </UL>
 
-<P><STRONG><a name="[132]"></a>get_gyro_gain_update_config</STRONG> (Thumb, 138 bytes, Stack size 40 bytes, bmi2.o(i.get_gyro_gain_update_config))
+<P><STRONG><a name="[131]"></a>get_gyro_gain_update_config</STRONG> (Thumb, 138 bytes, Stack size 40 bytes, bmi2.o(i.get_gyro_gain_update_config))
 <BR><BR>[Stack]<UL><LI>Max Depth = 240<LI>Call Chain = get_gyro_gain_update_config &rArr; bmi2_get_feat_config &rArr; bmi2_get_regs
 </UL>
-<BR>[Calls]<UL><LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_feat_config
-<LI><a href="#[157]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_extract_input_feat_config
+<BR>[Calls]<UL><LI><a href="#[126]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_feat_config
+<LI><a href="#[156]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_extract_input_feat_config
 </UL>
 <BR>[Called By]<UL><LI><a href="#[e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_sensor_config
 </UL>
 
-<P><STRONG><a name="[12d]"></a>get_gyro_gain_update_status</STRONG> (Thumb, 104 bytes, Stack size 32 bytes, bmi2.o(i.get_gyro_gain_update_status))
+<P><STRONG><a name="[12c]"></a>get_gyro_gain_update_status</STRONG> (Thumb, 104 bytes, Stack size 32 bytes, bmi2.o(i.get_gyro_gain_update_status))
 <BR><BR>[Stack]<UL><LI>Max Depth = 232<LI>Call Chain = get_gyro_gain_update_status &rArr; bmi2_get_feat_config &rArr; bmi2_get_regs
 </UL>
-<BR>[Calls]<UL><LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_feat_config
-<LI><a href="#[156]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;extract_output_feat_config
+<BR>[Calls]<UL><LI><a href="#[126]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_feat_config
+<LI><a href="#[155]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;extract_output_feat_config
 </UL>
-<BR>[Called By]<UL><LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_feature_data
+<BR>[Called By]<UL><LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_feature_data
 </UL>
 
-<P><STRONG><a name="[139]"></a>get_remapped_data</STRONG> (Thumb, 86 bytes, Stack size 16 bytes, bmi2.o(i.get_remapped_data))
+<P><STRONG><a name="[138]"></a>get_remapped_data</STRONG> (Thumb, 86 bytes, Stack size 16 bytes, bmi2.o(i.get_remapped_data))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = get_remapped_data
 </UL>
-<BR>[Called By]<UL><LI><a href="#[134]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_parse_sensor_data
+<BR>[Called By]<UL><LI><a href="#[133]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_parse_sensor_data
 </UL>
 
-<P><STRONG><a name="[12a]"></a>null_ptr_check</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, bmi2.o(i.null_ptr_check))
-<BR><BR>[Called By]<UL><LI><a href="#[144]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_write_config_file
-<LI><a href="#[126]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_write_aux_man_mode
-<LI><a href="#[13c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_soft_reset
+<P><STRONG><a name="[129]"></a>null_ptr_check</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, bmi2.o(i.null_ptr_check))
+<BR><BR>[Called By]<UL><LI><a href="#[143]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_write_config_file
+<LI><a href="#[125]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_write_aux_man_mode
+<LI><a href="#[13b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_soft_reset
 <LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_set_sensor_config
 <LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_set_regs
-<LI><a href="#[12b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_set_adv_power_save
+<LI><a href="#[12a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_set_adv_power_save
 <LI><a href="#[e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_sensor_enable
-<LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_sensor_disable
-<LI><a href="#[11e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_sec_init
-<LI><a href="#[125]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_read_aux_man_mode
-<LI><a href="#[134]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_parse_sensor_data
-<LI><a href="#[135]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_status
+<LI><a href="#[123]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_sensor_disable
+<LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_sec_init
+<LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_read_aux_man_mode
+<LI><a href="#[133]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_parse_sensor_data
+<LI><a href="#[134]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_status
 <LI><a href="#[e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_sensor_config
-<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_regs
-<LI><a href="#[12e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_internal_status
-<LI><a href="#[11f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_gyro_cross_sense
-<LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_feature_data
-<LI><a href="#[130]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_gyro_config
-<LI><a href="#[12f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_accel_config
+<LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_regs
+<LI><a href="#[12d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_internal_status
+<LI><a href="#[11e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_gyro_cross_sense
+<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_feature_data
+<LI><a href="#[12f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_gyro_config
+<LI><a href="#[12e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_accel_config
 </UL>
 
-<P><STRONG><a name="[13b]"></a>read_aux_data</STRONG> (Thumb, 144 bytes, Stack size 56 bytes, bmi2.o(i.read_aux_data))
+<P><STRONG><a name="[13a]"></a>read_aux_data</STRONG> (Thumb, 144 bytes, Stack size 56 bytes, bmi2.o(i.read_aux_data))
 <BR><BR>[Stack]<UL><LI>Max Depth = 272<LI>Call Chain = read_aux_data &rArr; set_if_aux_not_busy &rArr; bmi2_get_status &rArr; bmi2_get_regs
 </UL>
-<BR>[Calls]<UL><LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_regs
-<LI><a href="#[145]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_if_aux_not_busy
+<BR>[Calls]<UL><LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_regs
+<LI><a href="#[144]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_if_aux_not_busy
 </UL>
-<BR>[Called By]<UL><LI><a href="#[125]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_read_aux_man_mode
+<BR>[Called By]<UL><LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_read_aux_man_mode
 </UL>
 
-<P><STRONG><a name="[13d]"></a>select_sensor</STRONG> (Thumb, 76 bytes, Stack size 16 bytes, bmi2.o(i.select_sensor))
+<P><STRONG><a name="[13c]"></a>select_sensor</STRONG> (Thumb, 76 bytes, Stack size 16 bytes, bmi2.o(i.select_sensor))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = select_sensor
 </UL>
 <BR>[Called By]<UL><LI><a href="#[e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_sensor_enable
-<LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_sensor_disable
+<LI><a href="#[123]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_sensor_disable
 </UL>
 
-<P><STRONG><a name="[13e]"></a>sensor_disable</STRONG> (Thumb, 124 bytes, Stack size 24 bytes, bmi2.o(i.sensor_disable))
+<P><STRONG><a name="[13d]"></a>sensor_disable</STRONG> (Thumb, 124 bytes, Stack size 24 bytes, bmi2.o(i.sensor_disable))
 <BR><BR>[Stack]<UL><LI>Max Depth = 184<LI>Call Chain = sensor_disable &rArr; bmi2_get_regs
 </UL>
 <BR>[Calls]<UL><LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_set_regs
-<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_regs
+<LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_regs
 </UL>
-<BR>[Called By]<UL><LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_sensor_disable
+<BR>[Called By]<UL><LI><a href="#[123]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_sensor_disable
 </UL>
 
-<P><STRONG><a name="[13f]"></a>sensor_enable</STRONG> (Thumb, 124 bytes, Stack size 24 bytes, bmi2.o(i.sensor_enable))
+<P><STRONG><a name="[13e]"></a>sensor_enable</STRONG> (Thumb, 124 bytes, Stack size 24 bytes, bmi2.o(i.sensor_enable))
 <BR><BR>[Stack]<UL><LI>Max Depth = 184<LI>Call Chain = sensor_enable &rArr; bmi2_get_regs
 </UL>
 <BR>[Calls]<UL><LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_set_regs
-<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_regs
+<LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_regs
 </UL>
 <BR>[Called By]<UL><LI><a href="#[e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_sensor_enable
 </UL>
 
-<P><STRONG><a name="[140]"></a>set_accel_config</STRONG> (Thumb, 152 bytes, Stack size 24 bytes, bmi2.o(i.set_accel_config))
+<P><STRONG><a name="[13f]"></a>set_accel_config</STRONG> (Thumb, 152 bytes, Stack size 24 bytes, bmi2.o(i.set_accel_config))
 <BR><BR>[Stack]<UL><LI>Max Depth = 192<LI>Call Chain = set_accel_config &rArr; cfg_error_status &rArr; bmi2_get_regs
 </UL>
 <BR>[Calls]<UL><LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_set_regs
-<LI><a href="#[158]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;check_boundary_val
-<LI><a href="#[154]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;cfg_error_status
+<LI><a href="#[157]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;check_boundary_val
+<LI><a href="#[153]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;cfg_error_status
 </UL>
 <BR>[Called By]<UL><LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_set_sensor_config
 </UL>
 
-<P><STRONG><a name="[142]"></a>set_aux_config</STRONG> (Thumb, 144 bytes, Stack size 24 bytes, bmi2.o(i.set_aux_config))
+<P><STRONG><a name="[141]"></a>set_aux_config</STRONG> (Thumb, 144 bytes, Stack size 24 bytes, bmi2.o(i.set_aux_config))
 <BR><BR>[Stack]<UL><LI>Max Depth = 232<LI>Call Chain = set_aux_config &rArr; config_aux_interface &rArr; bmi2_get_status &rArr; bmi2_get_regs
 </UL>
 <BR>[Calls]<UL><LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_set_regs
-<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_regs
-<LI><a href="#[155]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;config_aux_interface
-<LI><a href="#[158]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;check_boundary_val
+<LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_regs
+<LI><a href="#[154]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;config_aux_interface
+<LI><a href="#[157]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;check_boundary_val
 </UL>
 <BR>[Called By]<UL><LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_set_sensor_config
 </UL>
 
-<P><STRONG><a name="[159]"></a>set_config_load</STRONG> (Thumb, 54 bytes, Stack size 16 bytes, bmi2.o(i.set_config_load))
+<P><STRONG><a name="[158]"></a>set_config_load</STRONG> (Thumb, 54 bytes, Stack size 16 bytes, bmi2.o(i.set_config_load))
 <BR><BR>[Stack]<UL><LI>Max Depth = 176<LI>Call Chain = set_config_load &rArr; bmi2_get_regs
 </UL>
 <BR>[Calls]<UL><LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_set_regs
-<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_regs
+<LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_regs
 </UL>
-<BR>[Called By]<UL><LI><a href="#[146]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;write_config_file
+<BR>[Called By]<UL><LI><a href="#[145]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;write_config_file
 </UL>
 
-<P><STRONG><a name="[141]"></a>set_gyro_config</STRONG> (Thumb, 172 bytes, Stack size 16 bytes, bmi2.o(i.set_gyro_config))
+<P><STRONG><a name="[140]"></a>set_gyro_config</STRONG> (Thumb, 172 bytes, Stack size 16 bytes, bmi2.o(i.set_gyro_config))
 <BR><BR>[Stack]<UL><LI>Max Depth = 184<LI>Call Chain = set_gyro_config &rArr; cfg_error_status &rArr; bmi2_get_regs
 </UL>
 <BR>[Calls]<UL><LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_set_regs
-<LI><a href="#[158]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;check_boundary_val
-<LI><a href="#[154]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;cfg_error_status
+<LI><a href="#[157]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;check_boundary_val
+<LI><a href="#[153]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;cfg_error_status
 </UL>
 <BR>[Called By]<UL><LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_set_sensor_config
 </UL>
 
-<P><STRONG><a name="[143]"></a>set_gyro_user_gain_config</STRONG> (Thumb, 162 bytes, Stack size 40 bytes, bmi2.o(i.set_gyro_user_gain_config))
+<P><STRONG><a name="[142]"></a>set_gyro_user_gain_config</STRONG> (Thumb, 162 bytes, Stack size 40 bytes, bmi2.o(i.set_gyro_user_gain_config))
 <BR><BR>[Stack]<UL><LI>Max Depth = 240<LI>Call Chain = set_gyro_user_gain_config &rArr; bmi2_get_feat_config &rArr; bmi2_get_regs
 </UL>
 <BR>[Calls]<UL><LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_set_regs
-<LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_feat_config
-<LI><a href="#[157]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_extract_input_feat_config
+<LI><a href="#[126]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_feat_config
+<LI><a href="#[156]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_extract_input_feat_config
 </UL>
 <BR>[Called By]<UL><LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_set_sensor_config
 </UL>
 
-<P><STRONG><a name="[145]"></a>set_if_aux_not_busy</STRONG> (Thumb, 92 bytes, Stack size 40 bytes, bmi2.o(i.set_if_aux_not_busy))
+<P><STRONG><a name="[144]"></a>set_if_aux_not_busy</STRONG> (Thumb, 92 bytes, Stack size 40 bytes, bmi2.o(i.set_if_aux_not_busy))
 <BR><BR>[Stack]<UL><LI>Max Depth = 216<LI>Call Chain = set_if_aux_not_busy &rArr; bmi2_get_status &rArr; bmi2_get_regs
 </UL>
 <BR>[Calls]<UL><LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_set_regs
-<LI><a href="#[135]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_status
+<LI><a href="#[134]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_get_status
 </UL>
-<BR>[Called By]<UL><LI><a href="#[126]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_write_aux_man_mode
-<LI><a href="#[13b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;read_aux_data
+<BR>[Called By]<UL><LI><a href="#[125]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_write_aux_man_mode
+<LI><a href="#[13a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;read_aux_data
 </UL>
 
-<P><STRONG><a name="[15e]"></a>upload_file</STRONG> (Thumb, 64 bytes, Stack size 24 bytes, bmi2.o(i.upload_file))
+<P><STRONG><a name="[15d]"></a>upload_file</STRONG> (Thumb, 64 bytes, Stack size 24 bytes, bmi2.o(i.upload_file))
 <BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = upload_file &rArr; bmi2_set_regs
 </UL>
 <BR>[Calls]<UL><LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_set_regs
 </UL>
-<BR>[Called By]<UL><LI><a href="#[146]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;write_config_file
+<BR>[Called By]<UL><LI><a href="#[145]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;write_config_file
 </UL>
 
-<P><STRONG><a name="[146]"></a>write_config_file</STRONG> (Thumb, 186 bytes, Stack size 24 bytes, bmi2.o(i.write_config_file))
+<P><STRONG><a name="[145]"></a>write_config_file</STRONG> (Thumb, 186 bytes, Stack size 24 bytes, bmi2.o(i.write_config_file))
 <BR><BR>[Stack]<UL><LI>Max Depth = 200<LI>Call Chain = write_config_file &rArr; bmi2_set_adv_power_save &rArr; bmi2_get_regs
 </UL>
-<BR>[Calls]<UL><LI><a href="#[12b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_set_adv_power_save
-<LI><a href="#[15e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;upload_file
-<LI><a href="#[159]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_config_load
+<BR>[Calls]<UL><LI><a href="#[12a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_set_adv_power_save
+<LI><a href="#[15d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;upload_file
+<LI><a href="#[158]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_config_load
 </UL>
-<BR>[Called By]<UL><LI><a href="#[144]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_write_config_file
+<BR>[Called By]<UL><LI><a href="#[143]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_write_config_file
 </UL>
 
-<P><STRONG><a name="[11d]"></a>null_ptr_check</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, bmi270.o(i.null_ptr_check))
+<P><STRONG><a name="[11c]"></a>null_ptr_check</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, bmi270.o(i.null_ptr_check))
 <BR><BR>[Called By]<UL><LI><a href="#[e3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi270_init
 </UL>
 
@@ -2658,103 +2655,103 @@ Local Symbols
 <LI><a href="#[cf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IIC_Ack
 </UL>
 
-<P><STRONG><a name="[148]"></a>compensate_x</STRONG> (Thumb, 122 bytes, Stack size 12 bytes, bmm150.o(i.compensate_x))
+<P><STRONG><a name="[147]"></a>compensate_x</STRONG> (Thumb, 122 bytes, Stack size 12 bytes, bmm150.o(i.compensate_x))
 <BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = compensate_x
 </UL>
 <BR>[Called By]<UL><LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmm150_aux_mag_data
 </UL>
 
-<P><STRONG><a name="[149]"></a>compensate_y</STRONG> (Thumb, 118 bytes, Stack size 12 bytes, bmm150.o(i.compensate_y))
+<P><STRONG><a name="[148]"></a>compensate_y</STRONG> (Thumb, 118 bytes, Stack size 12 bytes, bmm150.o(i.compensate_y))
 <BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = compensate_y
 </UL>
 <BR>[Called By]<UL><LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmm150_aux_mag_data
 </UL>
 
-<P><STRONG><a name="[14a]"></a>compensate_z</STRONG> (Thumb, 108 bytes, Stack size 20 bytes, bmm150.o(i.compensate_z))
+<P><STRONG><a name="[149]"></a>compensate_z</STRONG> (Thumb, 108 bytes, Stack size 20 bytes, bmm150.o(i.compensate_z))
 <BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = compensate_z
 </UL>
 <BR>[Called By]<UL><LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmm150_aux_mag_data
 </UL>
 
-<P><STRONG><a name="[147]"></a>null_ptr_check</STRONG> (Thumb, 28 bytes, Stack size 0 bytes, bmm150.o(i.null_ptr_check))
-<BR><BR>[Called By]<UL><LI><a href="#[151]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmm150_set_regs
-<LI><a href="#[122]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmm150_set_presetmode
-<LI><a href="#[123]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmm150_set_op_mode
-<LI><a href="#[14b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmm150_get_regs
+<P><STRONG><a name="[146]"></a>null_ptr_check</STRONG> (Thumb, 28 bytes, Stack size 0 bytes, bmm150.o(i.null_ptr_check))
+<BR><BR>[Called By]<UL><LI><a href="#[150]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmm150_set_regs
+<LI><a href="#[121]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmm150_set_presetmode
+<LI><a href="#[122]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmm150_set_op_mode
+<LI><a href="#[14a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmm150_get_regs
 <LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmm150_aux_mag_data
-<LI><a href="#[14e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;suspend_to_sleep_mode
+<LI><a href="#[14d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;suspend_to_sleep_mode
 </UL>
 
-<P><STRONG><a name="[14d]"></a>read_trim_registers</STRONG> (Thumb, 180 bytes, Stack size 32 bytes, bmm150.o(i.read_trim_registers))
+<P><STRONG><a name="[14c]"></a>read_trim_registers</STRONG> (Thumb, 180 bytes, Stack size 32 bytes, bmm150.o(i.read_trim_registers))
 <BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = read_trim_registers &rArr; bmm150_get_regs
 </UL>
-<BR>[Calls]<UL><LI><a href="#[14b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmm150_get_regs
+<BR>[Calls]<UL><LI><a href="#[14a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmm150_get_regs
 </UL>
-<BR>[Called By]<UL><LI><a href="#[121]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmm150_init
+<BR>[Called By]<UL><LI><a href="#[120]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmm150_init
 </UL>
 
-<P><STRONG><a name="[15a]"></a>set_odr</STRONG> (Thumb, 50 bytes, Stack size 16 bytes, bmm150.o(i.set_odr))
+<P><STRONG><a name="[159]"></a>set_odr</STRONG> (Thumb, 50 bytes, Stack size 16 bytes, bmm150.o(i.set_odr))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = set_odr &rArr; bmm150_set_regs
 </UL>
-<BR>[Calls]<UL><LI><a href="#[151]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmm150_set_regs
-<LI><a href="#[14b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmm150_get_regs
+<BR>[Calls]<UL><LI><a href="#[150]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmm150_set_regs
+<LI><a href="#[14a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmm150_get_regs
 </UL>
-<BR>[Called By]<UL><LI><a href="#[150]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_odr_xyz_rep
+<BR>[Called By]<UL><LI><a href="#[14f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_odr_xyz_rep
 </UL>
 
-<P><STRONG><a name="[150]"></a>set_odr_xyz_rep</STRONG> (Thumb, 40 bytes, Stack size 16 bytes, bmm150.o(i.set_odr_xyz_rep))
+<P><STRONG><a name="[14f]"></a>set_odr_xyz_rep</STRONG> (Thumb, 40 bytes, Stack size 16 bytes, bmm150.o(i.set_odr_xyz_rep))
 <BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = set_odr_xyz_rep &rArr; set_odr &rArr; bmm150_set_regs
 </UL>
-<BR>[Calls]<UL><LI><a href="#[15c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_z_rep
-<LI><a href="#[15b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_xy_rep
-<LI><a href="#[15a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_odr
+<BR>[Calls]<UL><LI><a href="#[15b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_z_rep
+<LI><a href="#[15a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_xy_rep
+<LI><a href="#[159]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_odr
 </UL>
-<BR>[Called By]<UL><LI><a href="#[122]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmm150_set_presetmode
+<BR>[Called By]<UL><LI><a href="#[121]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmm150_set_presetmode
 </UL>
 
-<P><STRONG><a name="[14c]"></a>set_power_control_bit</STRONG> (Thumb, 62 bytes, Stack size 16 bytes, bmm150.o(i.set_power_control_bit))
+<P><STRONG><a name="[14b]"></a>set_power_control_bit</STRONG> (Thumb, 62 bytes, Stack size 16 bytes, bmm150.o(i.set_power_control_bit))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = set_power_control_bit &rArr; bmm150_set_regs
 </UL>
-<BR>[Calls]<UL><LI><a href="#[151]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmm150_set_regs
-<LI><a href="#[14b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmm150_get_regs
+<BR>[Calls]<UL><LI><a href="#[150]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmm150_set_regs
+<LI><a href="#[14a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmm150_get_regs
 </UL>
-<BR>[Called By]<UL><LI><a href="#[123]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmm150_set_op_mode
-<LI><a href="#[121]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmm150_init
-<LI><a href="#[14e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;suspend_to_sleep_mode
+<BR>[Called By]<UL><LI><a href="#[122]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmm150_set_op_mode
+<LI><a href="#[120]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmm150_init
+<LI><a href="#[14d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;suspend_to_sleep_mode
 </UL>
 
-<P><STRONG><a name="[15b]"></a>set_xy_rep</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, bmm150.o(i.set_xy_rep))
+<P><STRONG><a name="[15a]"></a>set_xy_rep</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, bmm150.o(i.set_xy_rep))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = set_xy_rep &rArr; bmm150_set_regs
 </UL>
-<BR>[Calls]<UL><LI><a href="#[151]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmm150_set_regs
+<BR>[Calls]<UL><LI><a href="#[150]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmm150_set_regs
 </UL>
-<BR>[Called By]<UL><LI><a href="#[150]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_odr_xyz_rep
+<BR>[Called By]<UL><LI><a href="#[14f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_odr_xyz_rep
 </UL>
 
-<P><STRONG><a name="[15c]"></a>set_z_rep</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, bmm150.o(i.set_z_rep))
+<P><STRONG><a name="[15b]"></a>set_z_rep</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, bmm150.o(i.set_z_rep))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = set_z_rep &rArr; bmm150_set_regs
 </UL>
-<BR>[Calls]<UL><LI><a href="#[151]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmm150_set_regs
+<BR>[Calls]<UL><LI><a href="#[150]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmm150_set_regs
 </UL>
-<BR>[Called By]<UL><LI><a href="#[150]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_odr_xyz_rep
+<BR>[Called By]<UL><LI><a href="#[14f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_odr_xyz_rep
 </UL>
 
-<P><STRONG><a name="[14e]"></a>suspend_to_sleep_mode</STRONG> (Thumb, 42 bytes, Stack size 16 bytes, bmm150.o(i.suspend_to_sleep_mode))
+<P><STRONG><a name="[14d]"></a>suspend_to_sleep_mode</STRONG> (Thumb, 42 bytes, Stack size 16 bytes, bmm150.o(i.suspend_to_sleep_mode))
 <BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = suspend_to_sleep_mode &rArr; set_power_control_bit &rArr; bmm150_set_regs
 </UL>
-<BR>[Calls]<UL><LI><a href="#[14c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_power_control_bit
-<LI><a href="#[147]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;null_ptr_check
+<BR>[Calls]<UL><LI><a href="#[14b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_power_control_bit
+<LI><a href="#[146]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;null_ptr_check
 </UL>
-<BR>[Called By]<UL><LI><a href="#[123]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmm150_set_op_mode
+<BR>[Called By]<UL><LI><a href="#[122]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmm150_set_op_mode
 </UL>
 
-<P><STRONG><a name="[14f]"></a>write_op_mode</STRONG> (Thumb, 48 bytes, Stack size 16 bytes, bmm150.o(i.write_op_mode))
+<P><STRONG><a name="[14e]"></a>write_op_mode</STRONG> (Thumb, 48 bytes, Stack size 16 bytes, bmm150.o(i.write_op_mode))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = write_op_mode &rArr; bmm150_set_regs
 </UL>
-<BR>[Calls]<UL><LI><a href="#[151]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmm150_set_regs
-<LI><a href="#[14b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmm150_get_regs
+<BR>[Calls]<UL><LI><a href="#[150]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmm150_set_regs
+<LI><a href="#[14a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmm150_get_regs
 </UL>
-<BR>[Called By]<UL><LI><a href="#[123]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmm150_set_op_mode
+<BR>[Called By]<UL><LI><a href="#[122]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmm150_set_op_mode
 </UL>
 
 <P><STRONG><a name="[de]"></a>__ARM_isfinitef</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, imu.o(i.__ARM_isfinitef))
@@ -2764,14 +2761,14 @@ Local Symbols
 <P><STRONG><a name="[e7]"></a>bmi2_aux_conf</STRONG> (Thumb, 248 bytes, Stack size 112 bytes, imu_bsp.o(i.bmi2_aux_conf))
 <BR><BR>[Stack]<UL><LI>Max Depth = 376<LI>Call Chain = bmi2_aux_conf &rArr; bmi2_set_sensor_config &rArr; set_gyro_user_gain_config &rArr; bmi2_get_feat_config &rArr; bmi2_get_regs
 </UL>
-<BR>[Calls]<UL><LI><a href="#[120]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
+<BR>[Calls]<UL><LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_set_sensor_config
+<LI><a href="#[123]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_sensor_disable
+<LI><a href="#[11f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
 <LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmm150_error_codes_print_result
 <LI><a href="#[e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_error_codes_print_result
-<LI><a href="#[122]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmm150_set_presetmode
-<LI><a href="#[123]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmm150_set_op_mode
-<LI><a href="#[121]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmm150_init
-<LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_set_sensor_config
-<LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_sensor_disable
+<LI><a href="#[121]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmm150_set_presetmode
+<LI><a href="#[122]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmm150_set_op_mode
+<LI><a href="#[120]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmm150_init
 </UL>
 <BR>[Called By]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IMU_INIT
 </UL>
@@ -2786,21 +2783,21 @@ Local Symbols
 <P><STRONG><a name="[61]"></a>bmi2_aux_i2c_read</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, imu_bsp.o(i.bmi2_aux_i2c_read))
 <BR><BR>[Stack]<UL><LI>Max Depth = 304<LI>Call Chain = bmi2_aux_i2c_read &rArr; bmi2_read_aux_man_mode &rArr; read_aux_data &rArr; set_if_aux_not_busy &rArr; bmi2_get_status &rArr; bmi2_get_regs
 </UL>
-<BR>[Calls]<UL><LI><a href="#[125]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_read_aux_man_mode
+<BR>[Calls]<UL><LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_read_aux_man_mode
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> imu_bsp.o(i.bmi2_aux_interface_init)
 </UL>
 <P><STRONG><a name="[62]"></a>bmi2_aux_i2c_write</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, imu_bsp.o(i.bmi2_aux_i2c_write))
 <BR><BR>[Stack]<UL><LI>Max Depth = 256<LI>Call Chain = bmi2_aux_i2c_write &rArr; bmi2_write_aux_man_mode &rArr; set_if_aux_not_busy &rArr; bmi2_get_status &rArr; bmi2_get_regs
 </UL>
-<BR>[Calls]<UL><LI><a href="#[126]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_write_aux_man_mode
+<BR>[Calls]<UL><LI><a href="#[125]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bmi2_write_aux_man_mode
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> imu_bsp.o(i.bmi2_aux_interface_init)
 </UL>
-<P><STRONG><a name="[153]"></a>lsb_to_dps</STRONG> (Thumb, 84 bytes, Stack size 24 bytes, imu_bsp.o(i.lsb_to_dps))
+<P><STRONG><a name="[152]"></a>lsb_to_dps</STRONG> (Thumb, 84 bytes, Stack size 24 bytes, imu_bsp.o(i.lsb_to_dps))
 <BR><BR>[Stack]<UL><LI>Max Depth = 328<LI>Call Chain = lsb_to_dps &rArr; __hardfp_pow &rArr; __kernel_poly &rArr; __aeabi_dmul &rArr; _double_epilogue &rArr; _double_round
 </UL>
-<BR>[Calls]<UL><LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_pow
+<BR>[Calls]<UL><LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_pow
 <LI><a href="#[7a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ui2d
 <LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dmul
 <LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_d2f
@@ -2808,10 +2805,10 @@ Local Symbols
 <BR>[Called By]<UL><LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_BmiGetRawData
 </UL>
 
-<P><STRONG><a name="[152]"></a>lsb_to_mg</STRONG> (Thumb, 92 bytes, Stack size 24 bytes, imu_bsp.o(i.lsb_to_mg))
+<P><STRONG><a name="[151]"></a>lsb_to_mg</STRONG> (Thumb, 92 bytes, Stack size 24 bytes, imu_bsp.o(i.lsb_to_mg))
 <BR><BR>[Stack]<UL><LI>Max Depth = 328<LI>Call Chain = lsb_to_mg &rArr; __hardfp_pow &rArr; __kernel_poly &rArr; __aeabi_dmul &rArr; _double_epilogue &rArr; _double_round
 </UL>
-<BR>[Calls]<UL><LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_pow
+<BR>[Calls]<UL><LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__hardfp_pow
 <LI><a href="#[7a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ui2d
 <LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dmul
 <LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_d2f
@@ -2819,10 +2816,10 @@ Local Symbols
 <BR>[Called By]<UL><LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_BmiGetRawData
 </UL>
 
-<P><STRONG><a name="[10a]"></a>_printf_core</STRONG> (Thumb, 436 bytes, Stack size 96 bytes, printf3.o(i._printf_core), UNUSED)
-<BR><BR>[Calls]<UL><LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uidivmod
+<P><STRONG><a name="[109]"></a>_printf_core</STRONG> (Thumb, 436 bytes, Stack size 96 bytes, printf3.o(i._printf_core), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uidivmod
 </UL>
-<BR>[Called By]<UL><LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__0printf$3
+<BR>[Called By]<UL><LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__0printf$3
 </UL>
 <P>
 <H3>

@@ -3,6 +3,7 @@
 
 void Test1(void);
 void Test2(void);
+void Test3(void);
 
 #endif
 

@@ -67,7 +67,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 		}
 		else if (aaa == 4) //第三题B->D
 		{
-			Angle_Control(135,2000,2000);
+			Angle_Control(150,2000,2000);
 		}
 	}
 	

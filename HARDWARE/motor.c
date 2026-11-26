@@ -144,8 +144,8 @@ void Speed_Control(float target_zuo, float target_you)
 /*½Ç¶È»·*/
 void Angle_Control(float set_angle,int zuo_basic,int you_basic)
 {
-	PID_location(set_angle,angle[0]-start,&BMI_PID);
-	SET_Motor_PWM(zuo_basic - BMI_PID.out,you_basic + BMI_PID.out);	     
+    PID_location(set_angle,angle[0]-start,&BMI_PID);
+    SET_Motor_PWM(zuo_basic - BMI_PID.out,you_basic + BMI_PID.out);         
 }
 
 
