@@ -936,6 +936,16 @@
               <FileType>5</FileType>
               <FilePath>..\HARDWARE\timer.h</FilePath>
             </File>
+            <File>
+              <FileName>key.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\key.c</FilePath>
+            </File>
+            <File>
+              <FileName>key.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\HARDWARE\key.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

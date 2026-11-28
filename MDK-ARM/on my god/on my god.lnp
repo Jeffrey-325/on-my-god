@@ -31,6 +31,7 @@
 "on my god\encoder.o"
 "on my god\motor.o"
 "on my god\timer.o"
+"on my god\key.o"
 "on my god\vofa.o"
 "on my god\allneed.o"
 "on my god\delay.o"

@@ -58,3 +58,4 @@ on my god\main.o: ../IMU_bmi270/imu.h
 on my god\main.o: ../HARDWARE/encoder.h
 on my god\main.o: ../LOGIC/vofa.h
 on my god\main.o: ../LOGIC/logic.h
+on my god\main.o: ../HARDWARE/key.h

@@ -201,6 +201,111 @@ void Test3(void)
 	}
 }
 
+void Test4(void)
+{
+    enum { AC = 10, CB, BD, DA, DONE, FAULT };
+    /* Set both to the measured absolute counts for a forward 1 m roll. */
+    float right_counts_per_m = 0.0f;
+    float left_counts_per_m = 0.0f;
+    const uint8_t distance_enabled = right_counts_per_m > 0.0f &&
+                                     left_counts_per_m > 0.0f;
+    static uint8_t laps, armed, last_black;
+    static uint32_t segment_since, sample_at, color_since;
+    static int32_t right_origin, left_origin;
+    extern float start;
+    uint32_t now = HAL_GetTick();
+    uint8_t black, on_arc, near_exit;
+    float cm = 0.0f;
+    float error;
+    int pwm;
+
+    /* Key_Poll calls all_init(), which puts part back at zero. */
+    if (part == 0) {
+        laps = 0;
+        part = AC;
+        armed = 0;
+        segment_since = color_since = now;
+        sample_at = now - 10U;
+        last_black = Gray_Read_Filter();
+        right_origin = Encoder_GetCount();
+        left_origin = Encoder2_GetCount();
+    }
+    if (part == DONE || part == FAULT) return;
+    if ((uint32_t)(now - sample_at) < 10U) return;
+    sample_at = now;
+
+    black = Gray_Read_Filter();
+    if (black != last_black) {
+        last_black = black;
+        color_since = now;
+    }
+    on_arc = (part == CB || part == DA);
+    if (distance_enabled) {
+        float right = (float)((int64_t)Encoder_GetCount() - right_origin);
+        float left = (float)((int64_t)Encoder2_GetCount() - left_origin);
+        if (right < 0.0f) right = -right;
+        if (left < 0.0f) left = -left;
+        cm = 50.0f * (right / right_counts_per_m + left / left_counts_per_m);
+    }
+    if ((uint32_t)(now - segment_since) >= 15000U ||
+        (distance_enabled && cm > (on_arc ? 150.0f : 155.0f))) {
+        goto fault;
+    }
+
+    if (!on_arc) {
+        /* Ignore the departure endpoint until the sensors see clear floor. */
+        if (!black && (uint32_t)(now - color_since) >= 30U) armed = 1;
+        if (armed && black && (uint32_t)(now - color_since) >= 20U &&
+            (!distance_enabled || cm >= 100.0f)) {
+            part = (part == AC) ? CB : DA;
+            aaa = 5;
+            xunji_1(1500, 1500);
+            goto next_segment;
+        }
+        aaa = (part == AC) ? 3 : 4;
+        return;
+    }
+
+    /* The tangent toward the infield is west at B and east at A. */
+    error = angle[0] - start - ((part == CB) ? 180.0f : 0.0f);
+    while (error > 180.0f) error -= 360.0f;
+    while (error < -180.0f) error += 360.0f;
+    near_exit = (error >= -30.0f && error <= 30.0f) &&
+                (!distance_enabled || cm >= 100.0f);
+    if (!black) {
+        if (near_exit && (uint32_t)(now - color_since) >= 30U) {
+            if (part == DA) {
+                if (++laps == 4U) {
+                    part = DONE;
+                    aaa = 0;
+                    return;
+                }
+                part = AC;
+                aaa = 3;
+            } else {
+                part = BD;
+                aaa = 4;
+            }
+            goto next_segment;
+        }
+        if ((uint32_t)(now - color_since) >= 150U) goto fault;
+    }
+    pwm = (part == DA && laps == 3U && near_exit) ? 1250 : 1500;
+    xunji_1(pwm, pwm);
+    return;
+
+next_segment:
+    segment_since = color_since = now;
+    right_origin = Encoder_GetCount();
+    left_origin = Encoder2_GetCount();
+    armed = 0;
+    return;
+
+fault:
+    part = FAULT;
+    aaa = 0;
+}
+
 
 
 

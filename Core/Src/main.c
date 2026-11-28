@@ -34,6 +34,7 @@
 #include "common.h"
 #include "vofa.h"
 #include "logic.h"
+#include "key.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -130,7 +131,7 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-		
+
     /* USER CODE BEGIN 3 */
 //		printf("------%d\r\n  %d\r\n  %d\r\n  %d\r\n  %d\r\n  %d\r\n-----",Out_2,Out_3,Out_4,Out_5,Out_6,Out_7);
 //		HAL_Delay(1000);
@@ -140,9 +141,9 @@ int main(void)
 		
 		//Test1();
 		//Test2();
-		Test3();
-
-		
+		//Test3();
+		//Key_Poll();
+		Test4();
 		
   }
   /* USER CODE END 3 */
